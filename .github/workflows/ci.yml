@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install pytest pyyaml
+
+      - name: Run seed + unit tests (no DB)
+        run: pytest tests/ -m "not db" -v
+
+      - name: Validate schema SQL syntax
+        run: |
+          python -c "
+          import re
+          from pathlib import Path
+          for f in sorted(Path('schema').glob('*.sql')):
+              text = f.read_text()
+              # Basic checks: each file must begin with BEGIN and end with COMMIT
+              assert 'BEGIN;' in text, f'{f}: missing BEGIN;'
+              assert 'COMMIT;' in text, f'{f}: missing COMMIT;'
+              print(f'OK: {f}')
+          "
+
+      - name: Validate seed YAML structure
+        run: |
+          python -c "
+          import yaml
+          from pathlib import Path
+          for f in sorted(Path('seeds').glob('*.yaml')):
+              data = yaml.safe_load(f.read_text())
+              assert data, f'{f}: empty'
+              print(f'OK: {f} ({len(list(data.values())[0])} rows)')
+          "

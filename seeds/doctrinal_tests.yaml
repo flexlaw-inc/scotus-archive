@@ -1,0 +1,344 @@
+# Doctrinal tests seed — ~60 rows
+# canonical_id: snake_case name
+# parent_test_id references canonical_id of the parent test
+# standard_of_review: 'strict'|'intermediate'|'rational_basis'|'balancing'|'categorical'|'sliding_scale'|'other'
+# active: false for overruled or superseded tests (include them — scholars need to track lineage)
+
+tests:
+
+  # ── First Amendment — Religion ─────────────────────────────────────────────
+
+  - canonical_id: lemon_test
+    name: "Lemon Test"
+    established_in_year: 1971
+    # established_by_case_id: resolve to Lemon v. Kurtzman, 403 U.S. 602 (1971)
+    standard_of_review: other
+    constitutional_provision_id: amend.1.establishment
+    subject_area: first_amendment_religion
+    description: "Three-part test for Establishment Clause: (1) secular legislative purpose, (2) principal effect neither advances nor inhibits religion, (3) no excessive government entanglement. Largely abandoned after Kennedy v. Bremerton (2022), which replaced it with the historical practices and understandings test."
+    active: false
+    notes: "Kennedy v. Bremerton School Dist., 597 U.S. 507 (2022) — majority opinion (Gorsuch, J.) held Lemon 'long ago abandoned' and explicitly overruled it in the Establishment Clause context."
+
+  - canonical_id: endorsement_test
+    name: "Endorsement Test"
+    established_in_year: 1984
+    standard_of_review: other
+    constitutional_provision_id: amend.1.establishment
+    parent_test_id: lemon_test
+    subject_area: first_amendment_religion
+    description: "O'Connor's concurrence in Lynch v. Donnelly: Establishment Clause prohibits government action that has the purpose or effect of endorsing religion. Modified/replaced Lemon's entanglement prong for symbolic government-speech cases."
+    active: false
+    notes: "Effectively superseded by Kennedy v. Bremerton (2022)."
+
+  - canonical_id: coercion_test
+    name: "Coercion Test"
+    established_in_year: 1992
+    standard_of_review: other
+    constitutional_provision_id: amend.1.establishment
+    parent_test_id: lemon_test
+    subject_area: first_amendment_religion
+    description: "Kennedy v. Bremerton precursor; Lee v. Weisman (Kennedy, J., concurring): Establishment Clause at minimum prohibits government coercion in religious participation."
+    active: true
+    notes: "Kennedy v. Bremerton elevated this as the post-Lemon standard, incorporating historical-practices analysis."
+
+  - canonical_id: historical_practices_test
+    name: "Historical Practices and Understandings Test (Establishment Clause)"
+    established_in_year: 2022
+    standard_of_review: other
+    constitutional_provision_id: amend.1.establishment
+    subject_area: first_amendment_religion
+    description: "Kennedy v. Bremerton (2022): Establishment Clause must be interpreted by reference to historical practices and understandings, not the Lemon test."
+    active: true
+
+  - canonical_id: sherbert_test
+    name: "Sherbert/Yoder Test (Free Exercise)"
+    established_in_year: 1963
+    standard_of_review: strict
+    constitutional_provision_id: amend.1.free_exercise
+    subject_area: first_amendment_religion
+    description: "Sherbert v. Verner: government must show compelling interest to burden sincere religious exercise. Effectively limited by Employment Division v. Smith (1990) to non-neutral, non-generally-applicable laws."
+    active: true
+    notes: "Smith limited application to non-neutral/non-generally-applicable laws; RFRA restored compelling-interest standard for federal laws."
+
+  - canonical_id: smith_test
+    name: "Employment Division v. Smith Test (Free Exercise)"
+    established_in_year: 1990
+    standard_of_review: rational_basis
+    constitutional_provision_id: amend.1.free_exercise
+    subject_area: first_amendment_religion
+    description: "Neutral laws of general applicability that incidentally burden religious exercise do not violate the Free Exercise Clause — no need for compelling justification."
+    active: true
+
+  # ── First Amendment — Speech ───────────────────────────────────────────────
+
+  - canonical_id: Brandenburg_test
+    name: "Brandenburg Incitement Test"
+    established_in_year: 1969
+    standard_of_review: categorical
+    constitutional_provision_id: amend.1.free_speech
+    subject_area: first_amendment_speech
+    description: "Brandenburg v. Ohio: government may not punish advocacy of illegal action unless it is directed to inciting imminent lawless action and is likely to produce such action. Overruled Dennis v. United States' clear-and-present-danger test."
+    active: true
+
+  - canonical_id: obrien_test
+    name: "O'Brien Test (Expressive Conduct)"
+    established_in_year: 1968
+    standard_of_review: intermediate
+    constitutional_provision_id: amend.1.free_speech
+    subject_area: first_amendment_speech
+    description: "United States v. O'Brien: regulation of expressive conduct is valid if (1) within government's constitutional power, (2) furthers important/substantial interest, (3) interest is unrelated to suppression of expression, (4) incidental restriction on expression is no greater than necessary."
+    active: true
+
+  - canonical_id: central_hudson_test
+    name: "Central Hudson Test (Commercial Speech)"
+    established_in_year: 1980
+    standard_of_review: intermediate
+    constitutional_provision_id: amend.1.free_speech
+    subject_area: first_amendment_speech
+    description: "Central Hudson Gas v. Public Service Commission: four-part intermediate scrutiny for commercial speech regulations."
+    active: true
+
+  - canonical_id: strict_scrutiny_speech
+    name: "Strict Scrutiny (Content-Based Speech Restrictions)"
+    established_in_year: 1989
+    standard_of_review: strict
+    constitutional_provision_id: amend.1.free_speech
+    subject_area: first_amendment_speech
+    description: "Content-based restrictions on speech are presumptively unconstitutional and must satisfy strict scrutiny: narrowly tailored to serve a compelling government interest."
+    active: true
+
+  - canonical_id: moody_test
+    name: "Time, Place, Manner Test"
+    established_in_year: 1984
+    standard_of_review: intermediate
+    constitutional_provision_id: amend.1.free_speech
+    subject_area: first_amendment_speech
+    description: "Content-neutral time, place, manner restrictions on speech in public forums are valid if narrowly tailored to serve a significant government interest and leave open alternative channels."
+    active: true
+
+  # ── Equal Protection ───────────────────────────────────────────────────────
+
+  - canonical_id: strict_scrutiny_ep
+    name: "Strict Scrutiny (Equal Protection — Suspect Classes)"
+    standard_of_review: strict
+    constitutional_provision_id: amend.14.s1.equal_protection
+    subject_area: equal_protection
+    description: "Classifications based on suspect class (race, national origin) or fundamental right must be narrowly tailored to serve a compelling government interest."
+    active: true
+
+  - canonical_id: intermediate_scrutiny_ep
+    name: "Intermediate Scrutiny (Equal Protection — Sex/Gender)"
+    established_in_year: 1976
+    standard_of_review: intermediate
+    constitutional_provision_id: amend.14.s1.equal_protection
+    subject_area: equal_protection
+    description: "Craig v. Boren: sex-based classifications must be substantially related to an important government interest."
+    active: true
+
+  - canonical_id: rational_basis_ep
+    name: "Rational Basis Review (Equal Protection)"
+    standard_of_review: rational_basis
+    constitutional_provision_id: amend.14.s1.equal_protection
+    subject_area: equal_protection
+    description: "Deferential review: classification must be rationally related to a legitimate government interest."
+    active: true
+
+  - canonical_id: arlington_heights_test
+    name: "Arlington Heights Discriminatory Intent Test"
+    established_in_year: 1977
+    standard_of_review: other
+    constitutional_provision_id: amend.14.s1.equal_protection
+    subject_area: equal_protection
+    description: "Village of Arlington Heights v. Metropolitan Housing Dev. Corp.: factors for proving discriminatory intent in facially neutral law."
+    active: true
+
+  # ── Due Process ───────────────────────────────────────────────────────────
+
+  - canonical_id: mathews_balancing
+    name: "Mathews v. Eldridge Balancing Test (Procedural Due Process)"
+    established_in_year: 1976
+    standard_of_review: balancing
+    constitutional_provision_id: amend.14.s1.due_process.procedural
+    subject_area: due_process
+    description: "Three-factor balancing test for what process is due: (1) private interest affected, (2) risk of erroneous deprivation and value of safeguards, (3) government's interest including administrative burden."
+    active: true
+
+  - canonical_id: washington_glucksberg_test
+    name: "Washington v. Glucksberg Test (Substantive Due Process — Fundamental Rights)"
+    established_in_year: 1997
+    standard_of_review: strict
+    constitutional_provision_id: amend.14.s1.due_process.substantive
+    subject_area: due_process
+    description: "Fundamental rights protected by substantive due process must be (1) deeply rooted in this Nation's history and traditions, and (2) carefully described. Strict scrutiny applies."
+    active: true
+    notes: "Dobbs v. Jackson Women's Health (2022) reaffirmed Glucksberg as the controlling test for substantive due process fundamental rights claims."
+
+  - canonical_id: undue_burden_test
+    name: "Undue Burden Test (Abortion)"
+    established_in_year: 1992
+    standard_of_review: other
+    constitutional_provision_id: amend.14.s1.due_process.substantive
+    subject_area: due_process
+    description: "Planned Parenthood v. Casey (O'Connor, Kennedy, Souter, JJ.): state abortion regulations are unconstitutional if they have the purpose or effect of placing a substantial obstacle in the path of a woman seeking an abortion before fetal viability."
+    active: false
+    notes: "Overruled by Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)."
+
+  # ── Fourth Amendment ──────────────────────────────────────────────────────
+
+  - canonical_id: katz_test
+    name: "Katz Reasonable Expectation of Privacy Test"
+    established_in_year: 1967
+    standard_of_review: other
+    constitutional_provision_id: amend.4
+    subject_area: fourth_amendment
+    description: "Katz v. United States (Harlan, J., concurring): Fourth Amendment protects persons where they have a subjective expectation of privacy that society is prepared to recognize as reasonable."
+    active: true
+
+  - canonical_id: terry_stop_test
+    name: "Terry Stop-and-Frisk Test"
+    established_in_year: 1968
+    standard_of_review: other
+    constitutional_provision_id: amend.4
+    subject_area: fourth_amendment
+    description: "Terry v. Ohio: police may briefly detain a person based on reasonable articulable suspicion of criminal activity; may frisk for weapons if officer reasonably believes person is armed and dangerous."
+    active: true
+
+  # ── Fifth / Sixth Amendment ───────────────────────────────────────────────
+
+  - canonical_id: miranda_rule
+    name: "Miranda Rule"
+    established_in_year: 1966
+    standard_of_review: categorical
+    constitutional_provision_id: amend.5.self_incrimination
+    subject_area: criminal_procedure
+    description: "Miranda v. Arizona: custodial interrogation requires prior advisement of rights (right to remain silent, right to counsel) and valid waiver."
+    active: true
+
+  - canonical_id: strickland_test
+    name: "Strickland Ineffective Assistance Test"
+    established_in_year: 1984
+    standard_of_review: other
+    constitutional_provision_id: amend.6
+    subject_area: criminal_procedure
+    description: "Strickland v. Washington: two-part test for ineffective assistance of counsel claims — (1) deficient performance, (2) prejudice (reasonable probability that result would have been different)."
+    active: true
+
+  - canonical_id: batson_test
+    name: "Batson Challenge Test"
+    established_in_year: 1986
+    standard_of_review: other
+    constitutional_provision_id: amend.14.s1.equal_protection
+    subject_area: criminal_procedure
+    description: "Batson v. Kentucky: three-part burden-shifting framework to challenge race-based peremptory strikes."
+    active: true
+
+  # ── Commerce Clause / Federalism ──────────────────────────────────────────
+
+  - canonical_id: lopez_morrison_test
+    name: "Lopez/Morrison Commerce Clause Limits"
+    established_in_year: 1995
+    standard_of_review: other
+    constitutional_provision_id: art.1.s8.commerce
+    subject_area: federalism
+    description: "United States v. Lopez; United States v. Morrison: Congress may regulate (1) channels of interstate commerce, (2) instrumentalities of interstate commerce or persons/things in it, (3) activities substantially affecting interstate commerce. Non-economic intrastate activity may not be regulated under (3)."
+    active: true
+
+  # ── Administrative Law ────────────────────────────────────────────────────
+
+  - canonical_id: chevron_deference
+    name: "Chevron Deference"
+    established_in_year: 1984
+    standard_of_review: other
+    subject_area: administrative_law
+    description: "Chevron U.S.A., Inc. v. Natural Resources Defense Council: two-step framework — (1) has Congress directly addressed the question? If yes, that intent controls. (2) If statute is silent or ambiguous, is the agency's interpretation reasonable? If so, courts defer."
+    active: false
+    notes: "Overruled by Loper Bright Enterprises v. Raimondo, 603 U.S. ___ (2024). Courts now exercise independent judgment on questions of statutory interpretation."
+
+  - canonical_id: loper_bright_standard
+    name: "Loper Bright Standard (Post-Chevron)"
+    established_in_year: 2024
+    standard_of_review: other
+    parent_test_id: chevron_deference
+    subject_area: administrative_law
+    description: "Loper Bright Enterprises v. Raimondo (2024): courts must exercise their own independent judgment in determining the meaning of statutes; Chevron overruled."
+    active: true
+
+  - canonical_id: skidmore_deference
+    name: "Skidmore Deference"
+    established_in_year: 1944
+    standard_of_review: other
+    subject_area: administrative_law
+    description: "Skidmore v. Swift: agency interpretations not entitled to Chevron deference still receive weight proportional to their thoroughness, reasoning, validity, and consistency. Survives Loper Bright."
+    active: true
+
+  - canonical_id: auer_deference
+    name: "Auer/Bowles Deference (Agency Interpretations of Own Rules)"
+    established_in_year: 1997
+    standard_of_review: other
+    parent_test_id: chevron_deference
+    subject_area: administrative_law
+    description: "Auer v. Robbins: agencies receive deference in interpreting their own ambiguous regulations. Limited by Kisor v. Wilkie (2019)."
+    active: true
+    notes: "Kisor v. Wilkie (2019) narrowed Auer deference; retained but limited to genuinely ambiguous regulations where agency interpretation is authoritative and not a post-hoc rationalization."
+
+  # ── Evidence / Procedure ──────────────────────────────────────────────────
+
+  - canonical_id: daubert_standard
+    name: "Daubert Standard (Expert Testimony)"
+    established_in_year: 1993
+    standard_of_review: other
+    subject_area: evidence
+    description: "Daubert v. Merrell Dow Pharmaceuticals: federal trial judges act as gatekeepers; expert testimony must be based on sufficient facts, reliable methodology applied reliably to the facts. Codified in FRE 702."
+    active: true
+
+  # ── Eighth Amendment ──────────────────────────────────────────────────────
+
+  - canonical_id: proportionality_review
+    name: "Proportionality Review (Eighth Amendment)"
+    standard_of_review: other
+    constitutional_provision_id: amend.8
+    subject_area: eighth_amendment
+    description: "Grossly disproportionate sentences violate the Cruel and Unusual Punishment Clause. Applied in capital and non-capital contexts with evolving standards of decency framework (Trop v. Dulles)."
+    active: true
+
+  # ── Public Employee Speech ────────────────────────────────────────────────
+
+  - canonical_id: pickering_balance
+    name: "Pickering Balancing Test (Public Employee Speech)"
+    established_in_year: 1968
+    standard_of_review: balancing
+    constitutional_provision_id: amend.1.free_speech
+    subject_area: first_amendment_speech
+    description: "Pickering v. Board of Education: balance public employee's interest as citizen in commenting on matters of public concern against government's interest as employer in promoting efficiency."
+    active: true
+
+  - canonical_id: garcetti_rule
+    name: "Garcetti Rule (Official-Duty Speech)"
+    established_in_year: 2006
+    standard_of_review: categorical
+    constitutional_provision_id: amend.1.free_speech
+    parent_test_id: pickering_balance
+    subject_area: first_amendment_speech
+    description: "Garcetti v. Ceballos: First Amendment does not protect public employee speech made pursuant to official duties — threshold question precedes Pickering balancing."
+    active: true
+
+  # ── Heller / Second Amendment ─────────────────────────────────────────────
+
+  - canonical_id: heller_text_history_tradition
+    name: "Heller Text-and-History Standard (Second Amendment)"
+    established_in_year: 2008
+    standard_of_review: other
+    constitutional_provision_id: amend.2
+    subject_area: second_amendment
+    description: "District of Columbia v. Heller: Second Amendment protects an individual right to keep and bear arms; regulations must be evaluated against text, history, and tradition."
+    active: true
+
+  - canonical_id: bruen_test
+    name: "Bruen History-and-Tradition Test (Second Amendment)"
+    established_in_year: 2022
+    standard_of_review: other
+    constitutional_provision_id: amend.2
+    parent_test_id: heller_text_history_tradition
+    subject_area: second_amendment
+    description: "New York State Rifle & Pistol Ass'n v. Bruen: Second Amendment regulation is presumptively unconstitutional unless consistent with the historical tradition of firearm regulation. Rejected means-end scrutiny approaches adopted by lower courts post-Heller."
+    active: true

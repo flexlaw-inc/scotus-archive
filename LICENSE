@@ -1,0 +1,53 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 FLexlaw
+
+You are free to:
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+  Attribution — You must give appropriate credit, provide a link to the license,
+  and indicate if changes were made. You may do so in any reasonable manner,
+  but not in any way that suggests the licensor endorses you or your use.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+---
+
+SCOPE OF THIS LICENSE
+
+This license covers:
+  - LLM-generated enrichment (opinion briefs, issue tags, summaries, provision tags,
+    doctrinal-test assignments, Marks-provisional assignments)
+  - Derived structured metadata (votes table, justice_term_scores, crosswalk tables,
+    opinion_citations graph, text metrics)
+  - Seed data curated by the FLexlaw team (justices, constitutional_provisions,
+    doctrinal_tests tables)
+
+This license does NOT cover:
+  - Harvard CAP full opinion text — public domain, no restrictions
+  - CourtListener opinion text — CC0 where applicable
+  - SCDB data — redistributed under SCDB's own terms (Washington University)
+  - Martin-Quinn scores — publicly available from mqscores.wustl.edu
+  - Bailey ideal-point scores — publicly available from Georgetown
+  - Oyez transcripts — subject to separate terms (see OYEZ_LICENSE.md)
+
+---
+
+CITATION
+
+If you use this dataset in published research, please cite:
+
+  FLexlaw SCOTUS Archive (v1.0.0). FLexlaw, 2026. Zenodo. DOI: 10.5281/zenodo.XXXXXXX
+
+BibTeX:
+  @dataset{flexlaw_scotus_2026,
+    author    = {FLexlaw},
+    title     = {FLexlaw SCOTUS Archive},
+    year      = {2026},
+    publisher = {Zenodo},
+    version   = {v1.0.0},
+    doi       = {10.5281/zenodo.XXXXXXX},
+    url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  }

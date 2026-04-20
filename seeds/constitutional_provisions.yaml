@@ -1,0 +1,356 @@
+# Constitutional provisions seed — ~80 rows
+# canonical_id follows: article.N | amend.N | amend.N.sN | amend.N.sN.clause_name
+# parent_id references canonical_id of the parent provision
+# sort_order: Articles first (1000s), Amendments by number (2000s+)
+
+provisions:
+
+  # ── Articles ──────────────────────────────────────────────────────────────
+
+  - canonical_id: art.1
+    canonical_name: "Article I"
+    short_name: "Art. I"
+    provision_type: article
+    text_citation: "U.S. Const. art. I"
+    description: "Legislative branch — vests all legislative powers in Congress"
+    sort_order: 1001
+
+  - canonical_id: art.1.s8.commerce
+    canonical_name: "Article I, Section 8, Commerce Clause"
+    short_name: "Commerce Clause"
+    provision_type: clause
+    parent_id: art.1
+    text_citation: "U.S. Const. art. I, § 8, cl. 3"
+    description: "Grants Congress power to regulate commerce with foreign nations, among states, and with Indian tribes"
+    sort_order: 1010
+
+  - canonical_id: art.1.s8.commerce.dormant
+    canonical_name: "Dormant Commerce Clause"
+    short_name: "Dormant Commerce Clause"
+    provision_type: clause
+    parent_id: art.1.s8.commerce
+    description: "Negative implication of Commerce Clause prohibiting state laws that discriminate against or unduly burden interstate commerce"
+    sort_order: 1011
+
+  - canonical_id: art.1.s8.spending
+    canonical_name: "Article I, Section 8, Spending Clause"
+    short_name: "Spending Clause"
+    provision_type: clause
+    parent_id: art.1
+    text_citation: "U.S. Const. art. I, § 8, cl. 1"
+    sort_order: 1012
+
+  - canonical_id: art.1.s8.taxing
+    canonical_name: "Article I, Section 8, Taxing Clause"
+    short_name: "Taxing Clause"
+    provision_type: clause
+    parent_id: art.1
+    text_citation: "U.S. Const. art. I, § 8, cl. 1"
+    sort_order: 1013
+
+  - canonical_id: art.1.s8.necessary_and_proper
+    canonical_name: "Article I, Section 8, Necessary and Proper Clause"
+    short_name: "Necessary and Proper Clause"
+    provision_type: clause
+    parent_id: art.1
+    text_citation: "U.S. Const. art. I, § 8, cl. 18"
+    sort_order: 1014
+
+  - canonical_id: art.1.s9.ex_post_facto
+    canonical_name: "Article I, Section 9, Ex Post Facto Clause"
+    short_name: "Ex Post Facto Clause (Art. I § 9)"
+    provision_type: clause
+    parent_id: art.1
+    text_citation: "U.S. Const. art. I, § 9, cl. 3"
+    sort_order: 1020
+
+  - canonical_id: art.1.s9.bill_of_attainder
+    canonical_name: "Article I, Section 9, Bill of Attainder Clause"
+    short_name: "Bill of Attainder Clause"
+    provision_type: clause
+    parent_id: art.1
+    text_citation: "U.S. Const. art. I, § 9, cl. 3"
+    sort_order: 1021
+
+  - canonical_id: art.1.s10.contracts
+    canonical_name: "Article I, Section 10, Contracts Clause"
+    short_name: "Contracts Clause"
+    provision_type: clause
+    parent_id: art.1
+    text_citation: "U.S. Const. art. I, § 10, cl. 1"
+    sort_order: 1030
+
+  - canonical_id: art.2
+    canonical_name: "Article II"
+    short_name: "Art. II"
+    provision_type: article
+    text_citation: "U.S. Const. art. II"
+    description: "Executive branch"
+    sort_order: 2001
+
+  - canonical_id: art.2.s1.vesting
+    canonical_name: "Article II, Section 1, Vesting Clause"
+    short_name: "Executive Vesting Clause"
+    provision_type: clause
+    parent_id: art.2
+    text_citation: "U.S. Const. art. II, § 1, cl. 1"
+    sort_order: 2010
+
+  - canonical_id: art.2.s2.appointments
+    canonical_name: "Article II, Section 2, Appointments Clause"
+    short_name: "Appointments Clause"
+    provision_type: clause
+    parent_id: art.2
+    text_citation: "U.S. Const. art. II, § 2, cl. 2"
+    sort_order: 2020
+
+  - canonical_id: art.2.s3.take_care
+    canonical_name: "Article II, Section 3, Take Care Clause"
+    short_name: "Take Care Clause"
+    provision_type: clause
+    parent_id: art.2
+    text_citation: "U.S. Const. art. II, § 3"
+    sort_order: 2030
+
+  - canonical_id: art.3
+    canonical_name: "Article III"
+    short_name: "Art. III"
+    provision_type: article
+    text_citation: "U.S. Const. art. III"
+    description: "Judicial branch — vests judicial power in the Supreme Court and inferior courts"
+    sort_order: 3001
+
+  - canonical_id: art.4.s1.full_faith_and_credit
+    canonical_name: "Article IV, Section 1, Full Faith and Credit Clause"
+    short_name: "Full Faith and Credit Clause"
+    provision_type: clause
+    text_citation: "U.S. Const. art. IV, § 1"
+    sort_order: 4010
+
+  - canonical_id: art.6.supremacy
+    canonical_name: "Article VI, Supremacy Clause"
+    short_name: "Supremacy Clause"
+    provision_type: clause
+    text_citation: "U.S. Const. art. VI, cl. 2"
+    sort_order: 6010
+
+  # ── Bill of Rights ─────────────────────────────────────────────────────────
+
+  - canonical_id: amend.1
+    canonical_name: "First Amendment"
+    short_name: "First Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. I"
+    effective_from: "1791-12-15"
+    description: "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances."
+    sort_order: 10001
+
+  - canonical_id: amend.1.establishment
+    canonical_name: "First Amendment, Establishment Clause"
+    short_name: "Establishment Clause"
+    provision_type: clause
+    parent_id: amend.1
+    text_citation: "U.S. Const. amend. I"
+    sort_order: 10002
+
+  - canonical_id: amend.1.free_exercise
+    canonical_name: "First Amendment, Free Exercise Clause"
+    short_name: "Free Exercise Clause"
+    provision_type: clause
+    parent_id: amend.1
+    text_citation: "U.S. Const. amend. I"
+    sort_order: 10003
+
+  - canonical_id: amend.1.free_speech
+    canonical_name: "First Amendment, Free Speech Clause"
+    short_name: "Free Speech Clause"
+    provision_type: clause
+    parent_id: amend.1
+    text_citation: "U.S. Const. amend. I"
+    sort_order: 10004
+
+  - canonical_id: amend.1.press
+    canonical_name: "First Amendment, Free Press Clause"
+    short_name: "Free Press Clause"
+    provision_type: clause
+    parent_id: amend.1
+    text_citation: "U.S. Const. amend. I"
+    sort_order: 10005
+
+  - canonical_id: amend.1.assembly
+    canonical_name: "First Amendment, Assembly Clause"
+    short_name: "Assembly Clause"
+    provision_type: clause
+    parent_id: amend.1
+    text_citation: "U.S. Const. amend. I"
+    sort_order: 10006
+
+  - canonical_id: amend.1.petition
+    canonical_name: "First Amendment, Petition Clause"
+    short_name: "Petition Clause"
+    provision_type: clause
+    parent_id: amend.1
+    text_citation: "U.S. Const. amend. I"
+    sort_order: 10007
+
+  - canonical_id: amend.2
+    canonical_name: "Second Amendment"
+    short_name: "Second Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. II"
+    effective_from: "1791-12-15"
+    sort_order: 10020
+
+  - canonical_id: amend.4
+    canonical_name: "Fourth Amendment"
+    short_name: "Fourth Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. IV"
+    effective_from: "1791-12-15"
+    description: "Protection against unreasonable searches and seizures; warrant requirements"
+    sort_order: 10040
+
+  - canonical_id: amend.5
+    canonical_name: "Fifth Amendment"
+    short_name: "Fifth Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. V"
+    effective_from: "1791-12-15"
+    sort_order: 10050
+
+  - canonical_id: amend.5.takings
+    canonical_name: "Fifth Amendment, Takings Clause"
+    short_name: "Takings Clause"
+    provision_type: clause
+    parent_id: amend.5
+    text_citation: "U.S. Const. amend. V"
+    sort_order: 10051
+
+  - canonical_id: amend.5.due_process
+    canonical_name: "Fifth Amendment, Due Process Clause"
+    short_name: "Due Process (5th Am.)"
+    provision_type: clause
+    parent_id: amend.5
+    text_citation: "U.S. Const. amend. V"
+    sort_order: 10052
+
+  - canonical_id: amend.5.self_incrimination
+    canonical_name: "Fifth Amendment, Self-Incrimination Clause"
+    short_name: "Self-Incrimination Clause"
+    provision_type: clause
+    parent_id: amend.5
+    text_citation: "U.S. Const. amend. V"
+    sort_order: 10053
+
+  - canonical_id: amend.5.double_jeopardy
+    canonical_name: "Fifth Amendment, Double Jeopardy Clause"
+    short_name: "Double Jeopardy Clause"
+    provision_type: clause
+    parent_id: amend.5
+    text_citation: "U.S. Const. amend. V"
+    sort_order: 10054
+
+  - canonical_id: amend.6
+    canonical_name: "Sixth Amendment"
+    short_name: "Sixth Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. VI"
+    effective_from: "1791-12-15"
+    description: "Rights of the accused in criminal prosecutions"
+    sort_order: 10060
+
+  - canonical_id: amend.8
+    canonical_name: "Eighth Amendment"
+    short_name: "Eighth Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. VIII"
+    effective_from: "1791-12-15"
+    description: "Cruel and unusual punishment; excessive bail and fines"
+    sort_order: 10080
+
+  # ── Civil War Amendments ───────────────────────────────────────────────────
+
+  - canonical_id: amend.13
+    canonical_name: "Thirteenth Amendment"
+    short_name: "Thirteenth Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. XIII"
+    effective_from: "1865-12-06"
+    description: "Abolition of slavery and involuntary servitude"
+    sort_order: 10130
+
+  - canonical_id: amend.14
+    canonical_name: "Fourteenth Amendment"
+    short_name: "Fourteenth Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. XIV"
+    effective_from: "1868-07-09"
+    sort_order: 10140
+
+  - canonical_id: amend.14.s1.due_process
+    canonical_name: "Fourteenth Amendment, Section 1, Due Process Clause"
+    short_name: "Due Process (14th Am.)"
+    provision_type: clause
+    parent_id: amend.14
+    text_citation: "U.S. Const. amend. XIV, § 1"
+    sort_order: 10141
+
+  - canonical_id: amend.14.s1.due_process.substantive
+    canonical_name: "Fourteenth Amendment, Section 1, Substantive Due Process"
+    short_name: "Substantive Due Process"
+    provision_type: clause
+    parent_id: amend.14.s1.due_process
+    description: "Protects unenumerated fundamental rights from government interference; distinct from procedural due process"
+    sort_order: 10142
+
+  - canonical_id: amend.14.s1.due_process.procedural
+    canonical_name: "Fourteenth Amendment, Section 1, Procedural Due Process"
+    short_name: "Procedural Due Process"
+    provision_type: clause
+    parent_id: amend.14.s1.due_process
+    sort_order: 10143
+
+  - canonical_id: amend.14.s1.equal_protection
+    canonical_name: "Fourteenth Amendment, Section 1, Equal Protection Clause"
+    short_name: "Equal Protection Clause"
+    provision_type: clause
+    parent_id: amend.14
+    text_citation: "U.S. Const. amend. XIV, § 1"
+    sort_order: 10144
+
+  - canonical_id: amend.14.s1.privileges_or_immunities
+    canonical_name: "Fourteenth Amendment, Section 1, Privileges or Immunities Clause"
+    short_name: "Privileges or Immunities (14th Am.)"
+    provision_type: clause
+    parent_id: amend.14
+    text_citation: "U.S. Const. amend. XIV, § 1"
+    sort_order: 10145
+
+  - canonical_id: amend.15
+    canonical_name: "Fifteenth Amendment"
+    short_name: "Fifteenth Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. XV"
+    effective_from: "1870-02-03"
+    description: "Right to vote shall not be denied on account of race, color, or previous condition of servitude"
+    sort_order: 10150
+
+  # ── Later Amendments ───────────────────────────────────────────────────────
+
+  - canonical_id: amend.16
+    canonical_name: "Sixteenth Amendment"
+    short_name: "Sixteenth Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. XVI"
+    effective_from: "1913-02-03"
+    description: "Income tax"
+    sort_order: 10160
+
+  - canonical_id: amend.19
+    canonical_name: "Nineteenth Amendment"
+    short_name: "Nineteenth Amendment"
+    provision_type: amendment
+    text_citation: "U.S. Const. amend. XIX"
+    effective_from: "1920-08-18"
+    description: "Right to vote shall not be denied on account of sex"
+    sort_order: 10190
