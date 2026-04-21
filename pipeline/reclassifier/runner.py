@@ -92,10 +92,14 @@ def _build_query(
     opinion_ids: Optional[List[int]],
     limit: Optional[int],
     only_undone: bool,
+    court_id: Optional[int] = None,
 ) -> tuple:
     clauses: List[str] = []
     params: List = []
 
+    if court_id is not None:
+        clauses.append("c.court_id = %s")
+        params.append(court_id)
     if opinion_ids:
         clauses.append("o.id = ANY(%s)")
         params.append(opinion_ids)
@@ -122,14 +126,15 @@ def _build_query(
 _LOG_INSERT_SQL = """
     INSERT INTO reclassification_log (
         opinion_id,
-        opinion_type_before,
-        opinion_type_after,
-        source,
+        old_type,
+        new_type,
+        signal,
+        signal_text,
+        rule_id,
         confidence,
-        applied,
-        evidence,
+        pipeline_version,
         created_at
-    ) VALUES (%s, %s, %s, %s, %s, %s, %s::jsonb, NOW())
+    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, NOW())
 """
 
 _OPINION_UPDATE_SQL = """
@@ -175,14 +180,17 @@ def run(
     only_undone: bool,
     opinion_ids: Optional[List[int]],
     limit: Optional[int],
+    court_id: Optional[int] = None,
     progress_every: int = 5000,
 ) -> int:
     apply_tiers = MEDIUM_APPLY_TIERS if apply_medium else DEFAULT_APPLY_TIERS
     LOG.info("apply tiers: %s", sorted(apply_tiers))
+    if court_id is not None:
+        LOG.info("filtering to court_id=%s", court_id)
     if dry_run:
         LOG.info("DRY RUN — no rows will be updated")
 
-    sql, params = _build_query(opinion_ids, limit, only_undone)
+    sql, params = _build_query(opinion_ids, limit, only_undone, court_id=court_id)
 
     conn = psycopg2.connect(db_url)
     try:
@@ -218,16 +226,21 @@ def run(
                         continue
 
                     # Log every proposed change, whether or not applied.
+                    # Schema-002 columns: signal (source of dominant signal),
+                    # signal_text (JSON payload of full verdict), rule_id
+                    # (pattern name), pipeline_version (source tag).
+                    dominant = verdict.signals[0] if verdict.signals else None
                     write.execute(
                         _LOG_INSERT_SQL,
                         (
                             row["opinion_id"],
                             row["opinion_type"],
                             verdict.label,
-                            SOURCE_TAG,
-                            verdict.confidence,
-                            verdict.confidence in apply_tiers and not dry_run,
+                            dominant.source if dominant else "none",
                             _evidence_json(verdict),
+                            dominant.pattern_name if dominant else None,
+                            verdict.confidence,
+                            SOURCE_TAG,
                         ),
                     )
 
@@ -283,6 +296,8 @@ def _parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     p.add_argument("--opinion-id", type=int, action="append", dest="opinion_ids",
                    help="Classify only this opinion id (may be repeated).")
     p.add_argument("--limit", type=int, help="Cap the number of rows processed.")
+    p.add_argument("--court-id", type=int, dest="court_id",
+                   help="Restrict to opinions whose case is in this court (e.g. 1 = SCOTUS).")
     p.add_argument("--verbose", action="store_true")
     return p.parse_args(argv)
 
@@ -306,6 +321,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         only_undone=not args.rerun,
         opinion_ids=args.opinion_ids,
         limit=args.limit,
+        court_id=args.court_id,
     )
 
 
