@@ -1,0 +1,3823 @@
+{
+  "rows": [
+    {
+      "opinion_id": 424155,
+      "case_id": 394909,
+      "decision_date": "1810-02-16",
+      "text_length": 15244,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15244
+        }
+      ]
+    },
+    {
+      "opinion_id": 424174,
+      "case_id": 394928,
+      "decision_date": "1810-03-05",
+      "text_length": 5919,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5919
+        }
+      ]
+    },
+    {
+      "opinion_id": 424190,
+      "case_id": 394944,
+      "decision_date": "1810-03-17",
+      "text_length": 7721,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7721
+        }
+      ]
+    },
+    {
+      "opinion_id": 424327,
+      "case_id": 395073,
+      "decision_date": "1879-10-01",
+      "text_length": 9758,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9758
+        }
+      ]
+    },
+    {
+      "opinion_id": 424426,
+      "case_id": 395168,
+      "decision_date": "1880-10-01",
+      "text_length": 15512,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15512
+        }
+      ]
+    },
+    {
+      "opinion_id": 424433,
+      "case_id": 395174,
+      "decision_date": "1880-10-01",
+      "text_length": 7118,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7118
+        }
+      ]
+    },
+    {
+      "opinion_id": 424457,
+      "case_id": 395197,
+      "decision_date": "1880-10-01",
+      "text_length": 5090,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5090
+        }
+      ]
+    },
+    {
+      "opinion_id": 424472,
+      "case_id": 395211,
+      "decision_date": "1880-10-01",
+      "text_length": 47707,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 47707
+        }
+      ]
+    },
+    {
+      "opinion_id": 424478,
+      "case_id": 395216,
+      "decision_date": "1880-10-01",
+      "text_length": 14636,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14636
+        }
+      ]
+    },
+    {
+      "opinion_id": 424488,
+      "case_id": 395226,
+      "decision_date": "1880-10-01",
+      "text_length": 19866,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 19866
+        }
+      ]
+    },
+    {
+      "opinion_id": 424489,
+      "case_id": 395227,
+      "decision_date": "1880-10-01",
+      "text_length": 13511,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 13511
+        }
+      ]
+    },
+    {
+      "opinion_id": 424513,
+      "case_id": 395247,
+      "decision_date": "1880-10-01",
+      "text_length": 10270,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10270
+        }
+      ]
+    },
+    {
+      "opinion_id": 424516,
+      "case_id": 395250,
+      "decision_date": "1880-10-01",
+      "text_length": 14982,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14982
+        }
+      ]
+    },
+    {
+      "opinion_id": 424548,
+      "case_id": 395281,
+      "decision_date": "1880-10-01",
+      "text_length": 11192,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11192
+        }
+      ]
+    },
+    {
+      "opinion_id": 424557,
+      "case_id": 395287,
+      "decision_date": "1880-10-01",
+      "text_length": 11864,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11864
+        }
+      ]
+    },
+    {
+      "opinion_id": 424590,
+      "case_id": 395317,
+      "decision_date": "1880-10-01",
+      "text_length": 15680,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15680
+        }
+      ]
+    },
+    {
+      "opinion_id": 424680,
+      "case_id": 395405,
+      "decision_date": "1881-10-01",
+      "text_length": 15457,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15457
+        }
+      ]
+    },
+    {
+      "opinion_id": 424713,
+      "case_id": 395436,
+      "decision_date": "1881-10-01",
+      "text_length": 13571,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 13571
+        }
+      ]
+    },
+    {
+      "opinion_id": 424790,
+      "case_id": 395512,
+      "decision_date": "1881-10-01",
+      "text_length": 5966,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5966
+        }
+      ]
+    },
+    {
+      "opinion_id": 424820,
+      "case_id": 395539,
+      "decision_date": "1881-10-01",
+      "text_length": 20789,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 20789
+        }
+      ]
+    },
+    {
+      "opinion_id": 424821,
+      "case_id": 395540,
+      "decision_date": "1881-10-01",
+      "text_length": 19373,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 19373
+        }
+      ]
+    },
+    {
+      "opinion_id": 424828,
+      "case_id": 395547,
+      "decision_date": "1881-10-01",
+      "text_length": 9713,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9713
+        }
+      ]
+    },
+    {
+      "opinion_id": 424860,
+      "case_id": 395576,
+      "decision_date": "1881-10-01",
+      "text_length": 14616,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14616
+        }
+      ]
+    },
+    {
+      "opinion_id": 424887,
+      "case_id": 395603,
+      "decision_date": "1882-10-01",
+      "text_length": 70347,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 70347
+        }
+      ]
+    },
+    {
+      "opinion_id": 424924,
+      "case_id": 395636,
+      "decision_date": "1882-10-01",
+      "text_length": 14932,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14932
+        }
+      ]
+    },
+    {
+      "opinion_id": 424932,
+      "case_id": 395643,
+      "decision_date": "1882-10-01",
+      "text_length": 8984,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 8984
+        }
+      ]
+    },
+    {
+      "opinion_id": 425005,
+      "case_id": 395715,
+      "decision_date": "1882-10-01",
+      "text_length": 68739,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 68739
+        }
+      ]
+    },
+    {
+      "opinion_id": 425028,
+      "case_id": 395738,
+      "decision_date": "1882-10-01",
+      "text_length": 27352,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 27352
+        }
+      ]
+    },
+    {
+      "opinion_id": 425059,
+      "case_id": 395767,
+      "decision_date": "1882-11-26",
+      "text_length": 6677,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6677
+        }
+      ]
+    },
+    {
+      "opinion_id": 425072,
+      "case_id": 395780,
+      "decision_date": "1882-10-01",
+      "text_length": 35623,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 35623
+        }
+      ]
+    },
+    {
+      "opinion_id": 425104,
+      "case_id": 395812,
+      "decision_date": "1883-04-16",
+      "text_length": 6071,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6071
+        }
+      ]
+    },
+    {
+      "opinion_id": 425105,
+      "case_id": 395813,
+      "decision_date": "1883-04-16",
+      "text_length": 10084,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10084
+        }
+      ]
+    },
+    {
+      "opinion_id": 425113,
+      "case_id": 395821,
+      "decision_date": "1883-04-23",
+      "text_length": 7169,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7169
+        }
+      ]
+    },
+    {
+      "opinion_id": 425172,
+      "case_id": 395874,
+      "decision_date": "1883-11-05",
+      "text_length": 5266,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5266
+        }
+      ]
+    },
+    {
+      "opinion_id": 425199,
+      "case_id": 395901,
+      "decision_date": "1883-11-19",
+      "text_length": 9282,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9282
+        }
+      ]
+    },
+    {
+      "opinion_id": 425255,
+      "case_id": 395954,
+      "decision_date": "1812-03-05",
+      "text_length": 20456,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 20456
+        }
+      ]
+    },
+    {
+      "opinion_id": 425260,
+      "case_id": 395959,
+      "decision_date": "1812-02-01",
+      "text_length": 7380,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7380
+        }
+      ]
+    },
+    {
+      "opinion_id": 425265,
+      "case_id": 395964,
+      "decision_date": "1812-02-01",
+      "text_length": 8636,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 8636
+        }
+      ]
+    },
+    {
+      "opinion_id": 425272,
+      "case_id": 395971,
+      "decision_date": "1812-03-07",
+      "text_length": 10041,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10041
+        }
+      ]
+    },
+    {
+      "opinion_id": 425277,
+      "case_id": 395976,
+      "decision_date": "1812-03-14",
+      "text_length": 14469,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14469
+        }
+      ]
+    },
+    {
+      "opinion_id": 425310,
+      "case_id": 396009,
+      "decision_date": "1813-03-06",
+      "text_length": 6791,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6791
+        }
+      ]
+    },
+    {
+      "opinion_id": 425317,
+      "case_id": 396016,
+      "decision_date": "1813-03-11",
+      "text_length": 8041,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 8041
+        }
+      ]
+    },
+    {
+      "opinion_id": 425318,
+      "case_id": 396017,
+      "decision_date": "1813-03-13",
+      "text_length": 6598,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6598
+        }
+      ]
+    },
+    {
+      "opinion_id": 425320,
+      "case_id": 396019,
+      "decision_date": "1813-03-09",
+      "text_length": 7465,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7465
+        }
+      ]
+    },
+    {
+      "opinion_id": 425322,
+      "case_id": 396021,
+      "decision_date": "1813-03-15",
+      "text_length": 18571,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 18571
+        }
+      ]
+    },
+    {
+      "opinion_id": 425330,
+      "case_id": 396029,
+      "decision_date": "1813-03-17",
+      "text_length": 7321,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7321
+        }
+      ]
+    },
+    {
+      "opinion_id": 425333,
+      "case_id": 396032,
+      "decision_date": "1813-03-15",
+      "text_length": 12063,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12063
+        }
+      ]
+    },
+    {
+      "opinion_id": 425335,
+      "case_id": 396034,
+      "decision_date": "1884-01-07",
+      "text_length": 16883,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 16883
+        }
+      ]
+    },
+    {
+      "opinion_id": 425336,
+      "case_id": 396035,
+      "decision_date": "1884-01-07",
+      "text_length": 21793,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 21793
+        }
+      ]
+    },
+    {
+      "opinion_id": 425356,
+      "case_id": 396055,
+      "decision_date": "1884-01-21",
+      "text_length": 14308,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14308
+        }
+      ]
+    },
+    {
+      "opinion_id": 425375,
+      "case_id": 396074,
+      "decision_date": "1884-01-28",
+      "text_length": 58074,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 58074
+        }
+      ]
+    },
+    {
+      "opinion_id": 425383,
+      "case_id": 396082,
+      "decision_date": "1884-02-04",
+      "text_length": 10647,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10647
+        }
+      ]
+    },
+    {
+      "opinion_id": 425395,
+      "case_id": 396093,
+      "decision_date": "1884-02-04",
+      "text_length": 19368,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 19368
+        }
+      ]
+    },
+    {
+      "opinion_id": 425482,
+      "case_id": 396174,
+      "decision_date": "1884-03-24",
+      "text_length": 59058,
+      "boundary_count": 1,
+      "block_count": 2,
+      "confidence": "high",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "preamble",
+          "opinion_type": "other",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 2241
+        },
+        {
+          "sequence": 1,
+          "kind": "authored_tc",
+          "opinion_type": "majority",
+          "author": "Mr. Justice Field",
+          "boundary_text": "Mr. Justice Field delivered the opinion of the court.",
+          "body_length": 56817
+        }
+      ]
+    },
+    {
+      "opinion_id": 425707,
+      "case_id": 396391,
+      "decision_date": "1885-03-23",
+      "text_length": 28717,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 28717
+        }
+      ]
+    },
+    {
+      "opinion_id": 425719,
+      "case_id": 396403,
+      "decision_date": "1885-03-30",
+      "text_length": 12245,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12245
+        }
+      ]
+    },
+    {
+      "opinion_id": 425739,
+      "case_id": 396423,
+      "decision_date": "1884-10-01",
+      "text_length": 12139,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12139
+        }
+      ]
+    },
+    {
+      "opinion_id": 425744,
+      "case_id": 396427,
+      "decision_date": "1885-04-13",
+      "text_length": 32637,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 32637
+        }
+      ]
+    },
+    {
+      "opinion_id": 425748,
+      "case_id": 396431,
+      "decision_date": "1885-04-13",
+      "text_length": 11407,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11407
+        }
+      ]
+    },
+    {
+      "opinion_id": 425773,
+      "case_id": 396456,
+      "decision_date": "1885-05-04",
+      "text_length": 22479,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 22479
+        }
+      ]
+    },
+    {
+      "opinion_id": 425824,
+      "case_id": 396503,
+      "decision_date": "1885-11-16",
+      "text_length": 19225,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 19225
+        }
+      ]
+    },
+    {
+      "opinion_id": 425966,
+      "case_id": 396633,
+      "decision_date": "1886-03-01",
+      "text_length": 17869,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17869
+        }
+      ]
+    },
+    {
+      "opinion_id": 425972,
+      "case_id": 396639,
+      "decision_date": "1886-03-01",
+      "text_length": 10288,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10288
+        }
+      ]
+    },
+    {
+      "opinion_id": 425973,
+      "case_id": 396640,
+      "decision_date": "1886-03-01",
+      "text_length": 12944,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12944
+        }
+      ]
+    },
+    {
+      "opinion_id": 425988,
+      "case_id": 396653,
+      "decision_date": "1886-03-15",
+      "text_length": 25007,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 25007
+        }
+      ]
+    },
+    {
+      "opinion_id": 426015,
+      "case_id": 396680,
+      "decision_date": "1886-03-29",
+      "text_length": 23423,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 23423
+        }
+      ]
+    },
+    {
+      "opinion_id": 426042,
+      "case_id": 396707,
+      "decision_date": "1886-04-12",
+      "text_length": 7741,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7741
+        }
+      ]
+    },
+    {
+      "opinion_id": 426043,
+      "case_id": 396708,
+      "decision_date": "1886-04-12",
+      "text_length": 11418,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11418
+        }
+      ]
+    },
+    {
+      "opinion_id": 426045,
+      "case_id": 396710,
+      "decision_date": "1864-12-01",
+      "text_length": 23381,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 23381
+        }
+      ]
+    },
+    {
+      "opinion_id": 426075,
+      "case_id": 396739,
+      "decision_date": "1886-04-26",
+      "text_length": 11444,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11444
+        }
+      ]
+    },
+    {
+      "opinion_id": 426125,
+      "case_id": 396782,
+      "decision_date": "1886-11-15",
+      "text_length": 11905,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11905
+        }
+      ]
+    },
+    {
+      "opinion_id": 426128,
+      "case_id": 396785,
+      "decision_date": "1886-11-15",
+      "text_length": 15282,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15282
+        }
+      ]
+    },
+    {
+      "opinion_id": 426137,
+      "case_id": 396792,
+      "decision_date": "1886-11-29",
+      "text_length": 5822,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5822
+        }
+      ]
+    },
+    {
+      "opinion_id": 426160,
+      "case_id": 396815,
+      "decision_date": "1886-12-06",
+      "text_length": 8133,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 8133
+        }
+      ]
+    },
+    {
+      "opinion_id": 426165,
+      "case_id": 396819,
+      "decision_date": "1886-12-13",
+      "text_length": 24665,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 24665
+        }
+      ]
+    },
+    {
+      "opinion_id": 426166,
+      "case_id": 396820,
+      "decision_date": "1886-12-13",
+      "text_length": 11118,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11118
+        }
+      ]
+    },
+    {
+      "opinion_id": 426190,
+      "case_id": 396842,
+      "decision_date": "1886-12-13",
+      "text_length": 8140,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 8140
+        }
+      ]
+    },
+    {
+      "opinion_id": 426193,
+      "case_id": 396845,
+      "decision_date": "1887-01-10",
+      "text_length": 19205,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 19205
+        }
+      ]
+    },
+    {
+      "opinion_id": 426203,
+      "case_id": 396855,
+      "decision_date": "1877-01-10",
+      "text_length": 18529,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 18529
+        }
+      ]
+    },
+    {
+      "opinion_id": 426234,
+      "case_id": 396884,
+      "decision_date": "1814-03-07",
+      "text_length": 31371,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 31371
+        }
+      ]
+    },
+    {
+      "opinion_id": 426239,
+      "case_id": 396889,
+      "decision_date": "1814-03-12",
+      "text_length": 33828,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 33828
+        }
+      ]
+    },
+    {
+      "opinion_id": 426241,
+      "case_id": 396890,
+      "decision_date": "1814-03-12",
+      "text_length": 15880,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15880
+        }
+      ]
+    },
+    {
+      "opinion_id": 426243,
+      "case_id": 396892,
+      "decision_date": "1814-02-01",
+      "text_length": 11405,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11405
+        }
+      ]
+    },
+    {
+      "opinion_id": 426246,
+      "case_id": 396895,
+      "decision_date": "1814-03-15",
+      "text_length": 5109,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5109
+        }
+      ]
+    },
+    {
+      "opinion_id": 426258,
+      "case_id": 396905,
+      "decision_date": "1814-02-01",
+      "text_length": 6755,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6755
+        }
+      ]
+    },
+    {
+      "opinion_id": 426265,
+      "case_id": 396912,
+      "decision_date": "1887-01-10",
+      "text_length": 20585,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 20585
+        }
+      ]
+    },
+    {
+      "opinion_id": 426289,
+      "case_id": 396936,
+      "decision_date": "1887-01-31",
+      "text_length": 5774,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5774
+        }
+      ]
+    },
+    {
+      "opinion_id": 426308,
+      "case_id": 396955,
+      "decision_date": "1887-02-07",
+      "text_length": 14823,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14823
+        }
+      ]
+    },
+    {
+      "opinion_id": 426335,
+      "case_id": 396982,
+      "decision_date": "1887-03-07",
+      "text_length": 16341,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 16341
+        }
+      ]
+    },
+    {
+      "opinion_id": 426409,
+      "case_id": 397054,
+      "decision_date": "1887-05-02",
+      "text_length": 31431,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 31431
+        }
+      ]
+    },
+    {
+      "opinion_id": 426438,
+      "case_id": 397082,
+      "decision_date": "1887-05-27",
+      "text_length": 7949,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7949
+        }
+      ]
+    },
+    {
+      "opinion_id": 426439,
+      "case_id": 397083,
+      "decision_date": "1887-05-27",
+      "text_length": 15273,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15273
+        }
+      ]
+    },
+    {
+      "opinion_id": 426461,
+      "case_id": 397105,
+      "decision_date": "1887-05-27",
+      "text_length": 5250,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5250
+        }
+      ]
+    },
+    {
+      "opinion_id": 426475,
+      "case_id": 397119,
+      "decision_date": "1887-05-27",
+      "text_length": 13002,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 13002
+        }
+      ]
+    },
+    {
+      "opinion_id": 426500,
+      "case_id": 397144,
+      "decision_date": "1887-11-07",
+      "text_length": 7636,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7636
+        }
+      ]
+    },
+    {
+      "opinion_id": 426548,
+      "case_id": 397189,
+      "decision_date": "1887-12-19",
+      "text_length": 12860,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12860
+        }
+      ]
+    },
+    {
+      "opinion_id": 426583,
+      "case_id": 397221,
+      "decision_date": "1888-01-09",
+      "text_length": 17465,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17465
+        }
+      ]
+    },
+    {
+      "opinion_id": 426584,
+      "case_id": 397222,
+      "decision_date": "1888-01-16",
+      "text_length": 6560,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6560
+        }
+      ]
+    },
+    {
+      "opinion_id": 426588,
+      "case_id": 397226,
+      "decision_date": "1888-01-23",
+      "text_length": 6004,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6004
+        }
+      ]
+    },
+    {
+      "opinion_id": 426610,
+      "case_id": 397248,
+      "decision_date": "1888-01-30",
+      "text_length": 6750,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6750
+        }
+      ]
+    },
+    {
+      "opinion_id": 426629,
+      "case_id": 397266,
+      "decision_date": "1888-02-20",
+      "text_length": 5412,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5412
+        }
+      ]
+    },
+    {
+      "opinion_id": 426666,
+      "case_id": 397301,
+      "decision_date": "1888-04-02",
+      "text_length": 13492,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 13492
+        }
+      ]
+    },
+    {
+      "opinion_id": 426788,
+      "case_id": 397415,
+      "decision_date": "1888-10-01",
+      "text_length": 19226,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 19226
+        }
+      ]
+    },
+    {
+      "opinion_id": 426790,
+      "case_id": 397417,
+      "decision_date": "1888-10-01",
+      "text_length": 5064,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5064
+        }
+      ]
+    },
+    {
+      "opinion_id": 426804,
+      "case_id": 397431,
+      "decision_date": "1888-11-12",
+      "text_length": 20178,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 20178
+        }
+      ]
+    },
+    {
+      "opinion_id": 426816,
+      "case_id": 397443,
+      "decision_date": "1888-11-05",
+      "text_length": 11628,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11628
+        }
+      ]
+    },
+    {
+      "opinion_id": 426858,
+      "case_id": 397484,
+      "decision_date": "1889-01-07",
+      "text_length": 39175,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 39175
+        }
+      ]
+    },
+    {
+      "opinion_id": 426861,
+      "case_id": 397487,
+      "decision_date": "1889-01-07",
+      "text_length": 6913,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6913
+        }
+      ]
+    },
+    {
+      "opinion_id": 426871,
+      "case_id": 397496,
+      "decision_date": "1889-01-14",
+      "text_length": 15105,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15105
+        }
+      ]
+    },
+    {
+      "opinion_id": 426884,
+      "case_id": 397508,
+      "decision_date": "1889-01-21",
+      "text_length": 17273,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17273
+        }
+      ]
+    },
+    {
+      "opinion_id": 426894,
+      "case_id": 397517,
+      "decision_date": "1889-02-04",
+      "text_length": 59115,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 59115
+        }
+      ]
+    },
+    {
+      "opinion_id": 426897,
+      "case_id": 397520,
+      "decision_date": "1889-01-28",
+      "text_length": 19218,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 19218
+        }
+      ]
+    },
+    {
+      "opinion_id": 426918,
+      "case_id": 397541,
+      "decision_date": "1889-03-05",
+      "text_length": 17042,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17042
+        }
+      ]
+    },
+    {
+      "opinion_id": 426932,
+      "case_id": 397554,
+      "decision_date": "1815-02-16",
+      "text_length": 8411,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 8411
+        }
+      ]
+    },
+    {
+      "opinion_id": 426947,
+      "case_id": 397568,
+      "decision_date": "1815-02-28",
+      "text_length": 22270,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 22270
+        }
+      ]
+    },
+    {
+      "opinion_id": 426948,
+      "case_id": 397569,
+      "decision_date": "1815-02-28",
+      "text_length": 10756,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10756
+        }
+      ]
+    },
+    {
+      "opinion_id": 426953,
+      "case_id": 397574,
+      "decision_date": "1815-03-04",
+      "text_length": 9423,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9423
+        }
+      ]
+    },
+    {
+      "opinion_id": 426954,
+      "case_id": 397575,
+      "decision_date": "1815-03-04",
+      "text_length": 6960,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6960
+        }
+      ]
+    },
+    {
+      "opinion_id": 426960,
+      "case_id": 397581,
+      "decision_date": "1815-03-10",
+      "text_length": 5408,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5408
+        }
+      ]
+    },
+    {
+      "opinion_id": 426962,
+      "case_id": 397583,
+      "decision_date": "1815-03-10",
+      "text_length": 12504,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12504
+        }
+      ]
+    },
+    {
+      "opinion_id": 427037,
+      "case_id": 397657,
+      "decision_date": "1889-05-13",
+      "text_length": 6818,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6818
+        }
+      ]
+    },
+    {
+      "opinion_id": 427057,
+      "case_id": 397676,
+      "decision_date": "1889-05-13",
+      "text_length": 14378,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14378
+        }
+      ]
+    },
+    {
+      "opinion_id": 427096,
+      "case_id": 397714,
+      "decision_date": "1889-10-28",
+      "text_length": 25762,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 25762
+        }
+      ]
+    },
+    {
+      "opinion_id": 427101,
+      "case_id": 397719,
+      "decision_date": "1889-11-11",
+      "text_length": 9119,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9119
+        }
+      ]
+    },
+    {
+      "opinion_id": 427106,
+      "case_id": 397724,
+      "decision_date": "1889-11-11",
+      "text_length": 9876,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9876
+        }
+      ]
+    },
+    {
+      "opinion_id": 427125,
+      "case_id": 397743,
+      "decision_date": "1889-11-18",
+      "text_length": 24555,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 24555
+        }
+      ]
+    },
+    {
+      "opinion_id": 427133,
+      "case_id": 397750,
+      "decision_date": "1889-11-25",
+      "text_length": 5760,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5760
+        }
+      ]
+    },
+    {
+      "opinion_id": 427136,
+      "case_id": 397753,
+      "decision_date": "1889-12-09",
+      "text_length": 16459,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 16459
+        }
+      ]
+    },
+    {
+      "opinion_id": 427144,
+      "case_id": 397761,
+      "decision_date": "1889-12-16",
+      "text_length": 9562,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9562
+        }
+      ]
+    },
+    {
+      "opinion_id": 427157,
+      "case_id": 397774,
+      "decision_date": "1889-12-23",
+      "text_length": 13845,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 13845
+        }
+      ]
+    },
+    {
+      "opinion_id": 427165,
+      "case_id": 397782,
+      "decision_date": "1890-01-06",
+      "text_length": 11069,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 11069
+        }
+      ]
+    },
+    {
+      "opinion_id": 427183,
+      "case_id": 397800,
+      "decision_date": "1890-01-20",
+      "text_length": 16464,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 16464
+        }
+      ]
+    },
+    {
+      "opinion_id": 427201,
+      "case_id": 397818,
+      "decision_date": "1890-02-03",
+      "text_length": 6921,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6921
+        }
+      ]
+    },
+    {
+      "opinion_id": 427227,
+      "case_id": 397844,
+      "decision_date": "1890-03-03",
+      "text_length": 58865,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 58865
+        }
+      ]
+    },
+    {
+      "opinion_id": 427232,
+      "case_id": 397848,
+      "decision_date": "1890-03-03",
+      "text_length": 23584,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 23584
+        }
+      ]
+    },
+    {
+      "opinion_id": 427233,
+      "case_id": 397849,
+      "decision_date": "1890-03-03",
+      "text_length": 28390,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 28390
+        }
+      ]
+    },
+    {
+      "opinion_id": 427237,
+      "case_id": 397851,
+      "decision_date": "1890-03-03",
+      "text_length": 19820,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 19820
+        }
+      ]
+    },
+    {
+      "opinion_id": 427244,
+      "case_id": 397858,
+      "decision_date": "1890-03-03",
+      "text_length": 12643,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12643
+        }
+      ]
+    },
+    {
+      "opinion_id": 427261,
+      "case_id": 397872,
+      "decision_date": "1890-03-17",
+      "text_length": 10497,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10497
+        }
+      ]
+    },
+    {
+      "opinion_id": 427262,
+      "case_id": 397873,
+      "decision_date": "1890-03-17",
+      "text_length": 12889,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12889
+        }
+      ]
+    },
+    {
+      "opinion_id": 427269,
+      "case_id": 397880,
+      "decision_date": "1890-03-17",
+      "text_length": 13330,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 13330
+        }
+      ]
+    },
+    {
+      "opinion_id": 427271,
+      "case_id": 397882,
+      "decision_date": "1890-03-17",
+      "text_length": 10336,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10336
+        }
+      ]
+    },
+    {
+      "opinion_id": 427272,
+      "case_id": 397883,
+      "decision_date": "1890-03-24",
+      "text_length": 8496,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 8496
+        }
+      ]
+    },
+    {
+      "opinion_id": 427275,
+      "case_id": 397886,
+      "decision_date": "1890-03-24",
+      "text_length": 9616,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9616
+        }
+      ]
+    },
+    {
+      "opinion_id": 427277,
+      "case_id": 397888,
+      "decision_date": "1890-03-24",
+      "text_length": 7996,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7996
+        }
+      ]
+    },
+    {
+      "opinion_id": 427292,
+      "case_id": 397901,
+      "decision_date": "1890-04-07",
+      "text_length": 14262,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14262
+        }
+      ]
+    },
+    {
+      "opinion_id": 427294,
+      "case_id": 397903,
+      "decision_date": "1890-04-07",
+      "text_length": 44047,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 44047
+        }
+      ]
+    },
+    {
+      "opinion_id": 427306,
+      "case_id": 397913,
+      "decision_date": "1890-04-28",
+      "text_length": 40810,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 40810
+        }
+      ]
+    },
+    {
+      "opinion_id": 427310,
+      "case_id": 397916,
+      "decision_date": "1890-04-21",
+      "text_length": 41495,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 41495
+        }
+      ]
+    },
+    {
+      "opinion_id": 427344,
+      "case_id": 397949,
+      "decision_date": "1890-05-19",
+      "text_length": 17868,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17868
+        }
+      ]
+    },
+    {
+      "opinion_id": 427351,
+      "case_id": 397956,
+      "decision_date": "1890-05-19",
+      "text_length": 47394,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 47394
+        }
+      ]
+    },
+    {
+      "opinion_id": 427368,
+      "case_id": 397972,
+      "decision_date": "1890-05-19",
+      "text_length": 17354,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17354
+        }
+      ]
+    },
+    {
+      "opinion_id": 427372,
+      "case_id": 397976,
+      "decision_date": "1890-05-19",
+      "text_length": 26989,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 26989
+        }
+      ]
+    },
+    {
+      "opinion_id": 427377,
+      "case_id": 397981,
+      "decision_date": "1890-05-23",
+      "text_length": 18178,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 18178
+        }
+      ]
+    },
+    {
+      "opinion_id": 427381,
+      "case_id": 397985,
+      "decision_date": "1890-05-19",
+      "text_length": 15604,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15604
+        }
+      ]
+    },
+    {
+      "opinion_id": 427468,
+      "case_id": 398072,
+      "decision_date": "1891-01-05",
+      "text_length": 7254,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7254
+        }
+      ]
+    },
+    {
+      "opinion_id": 427487,
+      "case_id": 398091,
+      "decision_date": "1891-01-26",
+      "text_length": 6749,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6749
+        }
+      ]
+    },
+    {
+      "opinion_id": 427530,
+      "case_id": 398134,
+      "decision_date": "1891-03-02",
+      "text_length": 6010,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6010
+        }
+      ]
+    },
+    {
+      "opinion_id": 427536,
+      "case_id": 398140,
+      "decision_date": "1891-03-02",
+      "text_length": 10774,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10774
+        }
+      ]
+    },
+    {
+      "opinion_id": 427539,
+      "case_id": 398143,
+      "decision_date": "1891-03-02",
+      "text_length": 30401,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 30401
+        }
+      ]
+    },
+    {
+      "opinion_id": 427540,
+      "case_id": 398144,
+      "decision_date": "1891-03-02",
+      "text_length": 16559,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 16559
+        }
+      ]
+    },
+    {
+      "opinion_id": 427621,
+      "case_id": 398219,
+      "decision_date": "1816-02-01",
+      "text_length": 14269,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14269
+        }
+      ]
+    },
+    {
+      "opinion_id": 427625,
+      "case_id": 398223,
+      "decision_date": "1816-02-01",
+      "text_length": 17514,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17514
+        }
+      ]
+    },
+    {
+      "opinion_id": 427628,
+      "case_id": 398226,
+      "decision_date": "1816-02-01",
+      "text_length": 5925,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5925
+        }
+      ]
+    },
+    {
+      "opinion_id": 427630,
+      "case_id": 398228,
+      "decision_date": "1816-02-01",
+      "text_length": 14969,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14969
+        }
+      ]
+    },
+    {
+      "opinion_id": 427635,
+      "case_id": 398233,
+      "decision_date": "1816-02-01",
+      "text_length": 45427,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 45427
+        }
+      ]
+    },
+    {
+      "opinion_id": 427638,
+      "case_id": 398236,
+      "decision_date": "1816-02-01",
+      "text_length": 18221,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 18221
+        }
+      ]
+    },
+    {
+      "opinion_id": 427642,
+      "case_id": 398240,
+      "decision_date": "1816-02-01",
+      "text_length": 19138,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 19138
+        }
+      ]
+    },
+    {
+      "opinion_id": 427657,
+      "case_id": 398253,
+      "decision_date": "1816-02-01",
+      "text_length": 13100,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 13100
+        }
+      ]
+    },
+    {
+      "opinion_id": 427693,
+      "case_id": 398289,
+      "decision_date": "1891-05-11",
+      "text_length": 6646,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6646
+        }
+      ]
+    },
+    {
+      "opinion_id": 427724,
+      "case_id": 398316,
+      "decision_date": "1891-05-25",
+      "text_length": 21591,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 21591
+        }
+      ]
+    },
+    {
+      "opinion_id": 427725,
+      "case_id": 398317,
+      "decision_date": "1891-05-25",
+      "text_length": 24941,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 24941
+        }
+      ]
+    },
+    {
+      "opinion_id": 427739,
+      "case_id": 398331,
+      "decision_date": "1891-05-25",
+      "text_length": 13654,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 13654
+        }
+      ]
+    },
+    {
+      "opinion_id": 427745,
+      "case_id": 398337,
+      "decision_date": "1891-05-25",
+      "text_length": 12716,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12716
+        }
+      ]
+    },
+    {
+      "opinion_id": 427749,
+      "case_id": 398341,
+      "decision_date": "1891-05-25",
+      "text_length": 73049,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 73049
+        }
+      ]
+    },
+    {
+      "opinion_id": 427794,
+      "case_id": 398385,
+      "decision_date": "1891-11-09",
+      "text_length": 15400,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 15400
+        }
+      ]
+    },
+    {
+      "opinion_id": 427828,
+      "case_id": 398417,
+      "decision_date": "1891-12-21",
+      "text_length": 5694,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5694
+        }
+      ]
+    },
+    {
+      "opinion_id": 427859,
+      "case_id": 398448,
+      "decision_date": "1892-01-18",
+      "text_length": 12783,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12783
+        }
+      ]
+    },
+    {
+      "opinion_id": 427870,
+      "case_id": 398458,
+      "decision_date": "1892-02-01",
+      "text_length": 22544,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 22544
+        }
+      ]
+    },
+    {
+      "opinion_id": 427874,
+      "case_id": 398462,
+      "decision_date": "1892-02-01",
+      "text_length": 12150,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 12150
+        }
+      ]
+    },
+    {
+      "opinion_id": 427875,
+      "case_id": 398463,
+      "decision_date": "1892-02-01",
+      "text_length": 5455,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5455
+        }
+      ]
+    },
+    {
+      "opinion_id": 427885,
+      "case_id": 398472,
+      "decision_date": "1892-02-29",
+      "text_length": 36311,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 36311
+        }
+      ]
+    },
+    {
+      "opinion_id": 427891,
+      "case_id": 398478,
+      "decision_date": "1892-02-29",
+      "text_length": 17078,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17078
+        }
+      ]
+    },
+    {
+      "opinion_id": 427897,
+      "case_id": 398482,
+      "decision_date": "1892-02-29",
+      "text_length": 6435,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 6435
+        }
+      ]
+    },
+    {
+      "opinion_id": 427909,
+      "case_id": 398492,
+      "decision_date": "1892-03-07",
+      "text_length": 17886,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17886
+        }
+      ]
+    },
+    {
+      "opinion_id": 427921,
+      "case_id": 398502,
+      "decision_date": "1892-03-14",
+      "text_length": 8418,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 8418
+        }
+      ]
+    },
+    {
+      "opinion_id": 427957,
+      "case_id": 398536,
+      "decision_date": "1892-04-04",
+      "text_length": 5347,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 5347
+        }
+      ]
+    },
+    {
+      "opinion_id": 427979,
+      "case_id": 398558,
+      "decision_date": "1892-04-18",
+      "text_length": 9761,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9761
+        }
+      ]
+    },
+    {
+      "opinion_id": 428000,
+      "case_id": 398578,
+      "decision_date": "1892-05-02",
+      "text_length": 7662,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7662
+        }
+      ]
+    },
+    {
+      "opinion_id": 428001,
+      "case_id": 398579,
+      "decision_date": "1892-05-02",
+      "text_length": 34921,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 34921
+        }
+      ]
+    },
+    {
+      "opinion_id": 428009,
+      "case_id": 398587,
+      "decision_date": "1892-05-16",
+      "text_length": 10768,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 10768
+        }
+      ]
+    },
+    {
+      "opinion_id": 428088,
+      "case_id": 398663,
+      "decision_date": "1892-12-12",
+      "text_length": 14349,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 14349
+        }
+      ]
+    },
+    {
+      "opinion_id": 428094,
+      "case_id": 398669,
+      "decision_date": "1892-12-19",
+      "text_length": 56896,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 56896
+        }
+      ]
+    },
+    {
+      "opinion_id": 428102,
+      "case_id": 398675,
+      "decision_date": "1892-12-19",
+      "text_length": 8228,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 8228
+        }
+      ]
+    },
+    {
+      "opinion_id": 428139,
+      "case_id": 398710,
+      "decision_date": "1893-01-23",
+      "text_length": 21067,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 21067
+        }
+      ]
+    },
+    {
+      "opinion_id": 428147,
+      "case_id": 398718,
+      "decision_date": "1893-02-06",
+      "text_length": 9002,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 9002
+        }
+      ]
+    },
+    {
+      "opinion_id": 428185,
+      "case_id": 398754,
+      "decision_date": "1893-03-13",
+      "text_length": 7380,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 7380
+        }
+      ]
+    },
+    {
+      "opinion_id": 428194,
+      "case_id": 398763,
+      "decision_date": "1893-03-06",
+      "text_length": 18073,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 18073
+        }
+      ]
+    },
+    {
+      "opinion_id": 428196,
+      "case_id": 398764,
+      "decision_date": "1893-03-20",
+      "text_length": 17224,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 17224
+        }
+      ]
+    },
+    {
+      "opinion_id": 428206,
+      "case_id": 398774,
+      "decision_date": "1893-03-27",
+      "text_length": 48657,
+      "boundary_count": 0,
+      "block_count": 1,
+      "confidence": "low",
+      "blocks": [
+        {
+          "sequence": 0,
+          "kind": "unsplit",
+          "opinion_type": "majority",
+          "author": null,
+          "boundary_text": null,
+          "body_length": 48657
+        }
+      ]
+    }
+  ],
+  "confidence_counts": {
+    "low": 199,
+    "high": 1
+  },
+  "block_kind_counts": {
+    "majority/unsplit": 199,
+    "other/preamble": 1,
+    "majority/authored_tc": 1
+  },
+  "seen": 201,
+  "pipeline_version": "splitter_v1"
+}
