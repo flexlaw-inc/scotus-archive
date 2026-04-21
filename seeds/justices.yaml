@@ -832,7 +832,7 @@ justices:
     full_first: John
     full_last: Blair
     suffix: Jr.
-    born: '1732'
+    born: '1732-04-17'   # Wikidata Q778866 (day precision); FJC has year only
     died: '1800-08-31'
     tenure_start: '1789-09-30'
     tenure_end: '1795-10-25'
@@ -1059,7 +1059,7 @@ justices:
     full_first: James
     full_middle: Moore
     full_last: Wayne
-    born: '1790'
+    born: null           # FJC + Wikidata Q1250079 have year (1790) only; day/month unknown
     died: '1867-07-05'
     tenure_start: '1835-01-09'
     tenure_end: '1867-07-05'
@@ -1088,7 +1088,7 @@ justices:
     display_name: Catron
     full_first: John
     full_last: Catron
-    born: '1786'
+    born: '1786-01-07'   # Wikidata Q1699569 (day precision); FJC has year only
     died: '1865-05-30'
     tenure_start: '1837-03-08'
     tenure_end: '1865-05-30'

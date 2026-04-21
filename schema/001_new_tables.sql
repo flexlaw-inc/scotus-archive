@@ -61,10 +61,15 @@ CREATE TABLE IF NOT EXISTS justice_term_scores (
 
 -- ── Votes ─────────────────────────────────────────────────────────────────────
 
-CREATE TYPE IF NOT EXISTS vote_value AS ENUM (
-    'majority', 'concurrence', 'dissent', 'mixed',
-    'no_participation', 'equally_divided'
-);
+DO $$
+BEGIN
+    IF NOT EXISTS (SELECT 1 FROM pg_type WHERE typname = 'vote_value') THEN
+        CREATE TYPE vote_value AS ENUM (
+            'majority', 'concurrence', 'dissent', 'mixed',
+            'no_participation', 'equally_divided'
+        );
+    END IF;
+END$$;
 
 CREATE TABLE IF NOT EXISTS votes (
     id                  BIGSERIAL PRIMARY KEY,

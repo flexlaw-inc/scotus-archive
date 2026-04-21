@@ -29,6 +29,25 @@ Additive changes (new columns, new tables) bump minor. Data corrections bump pat
 - `tests/test_sanity.py::test_justices_seed_loads` tightened from
   `len >= 40` to `len == 116` plus 17-Chief-Justice count and
   unique-oyez-id assertions.
+- `pipeline/seed_loader.py` — idempotent UPSERT loader for the three seed
+  YAMLs. Populates `justices`, `constitutional_provisions`, and
+  `doctrinal_tests` against the connection in `DB_URL`. Two-pass load for
+  the hierarchical tables: pass 1 inserts every row with parent FKs
+  NULL; pass 2 resolves the YAML's string `canonical_id` references into
+  integer FKs. Supports `--table <name>` and `--dry-run` (rolls back at
+  the end). Re-runs are clean: all 116/42/34 rows become UPDATEs, no
+  duplicates. Invoke: `python3 -m pipeline.seed_loader`.
+- `seeds/justices.yaml` date-precision fixes: the FJC CSV stores
+  year-only birth dates for three pre-1840 justices. Updated to
+  day-precision values from Wikidata where available (John Blair Jr. =
+  1732-04-17 per Q778866; John Catron = 1786-01-07 per Q1699569). James
+  M. Wayne remains null — both FJC and Wikidata Q1250079 have year 1790
+  only; day/month unknown. YAML is now ISO-8601 or null, nothing
+  intermediate, so `DATE` column loads succeed.
+- `schema/001_new_tables.sql` — replaced invalid
+  `CREATE TYPE IF NOT EXISTS vote_value AS ENUM (...)` with a
+  `DO $$ ... $$` block checking `pg_type`. PostgreSQL does not accept
+  `IF NOT EXISTS` on `CREATE TYPE`. Migration is now re-runnable.
 - Initial schema migrations (001, 002).
 - Seed files: justices (115-row target), constitutional_provisions, doctrinal_tests.
 - Gold-set directory structure (60-case v1.0.0 scope).
