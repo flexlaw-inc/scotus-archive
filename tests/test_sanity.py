@@ -195,3 +195,106 @@ def test_ot2023_unanimous_count(db_cur):
         SELECT COUNT(*) AS n FROM votes WHERE 1=0  -- stub
     """)
     pytest.skip("Phase 4 not yet run — skipping OT2023 unanimous count check")
+
+
+@pytest.mark.db
+def test_case_propositions_table_present(db_cur):
+    """
+    Phase 9b — case_propositions table must exist with the columns and
+    constraints declared in schema/003 before Phase 9b extraction can run.
+    """
+    db_cur.execute("""
+        SELECT column_name FROM information_schema.columns
+        WHERE table_name = 'case_propositions'
+        ORDER BY ordinal_position
+    """)
+    cols = {r["column_name"] for r in db_cur.fetchall()}
+    if not cols:
+        pytest.skip("case_propositions table not yet created — schema/003 not run")
+
+    required_cols = {
+        "id", "case_id", "proposition_text", "proposition_source",
+        "supporting_justice_ids", "opposing_justice_ids",
+        "vote_count_for", "vote_count_against", "commands_majority",
+        "precedential_status", "is_necessary_to_judgment",
+        "ordering", "confidence", "reviewer_signed_off",
+        "reviewer_signoff_at", "reviewer_id", "notes",
+        "created_at", "updated_at",
+    }
+    missing = required_cols - cols
+    assert not missing, f"case_propositions missing columns: {sorted(missing)}"
+
+    # CHECK constraints for the declared enums must exist.
+    db_cur.execute("""
+        SELECT conname FROM pg_constraint
+        WHERE conrelid = 'case_propositions'::regclass
+          AND contype = 'c'
+    """)
+    check_names = {r["conname"] for r in db_cur.fetchall()}
+    required_checks = {
+        "case_propositions_source_chk",
+        "case_propositions_precedential_status_chk",
+        "case_propositions_confidence_chk",
+        "case_propositions_no_coalition_overlap_chk",
+        "case_propositions_signoff_consistency_chk",
+    }
+    missing_checks = required_checks - check_names
+    assert not missing_checks, f"Missing CHECK constraints: {sorted(missing_checks)}"
+
+
+@pytest.mark.db
+def test_case_propositions_check_constraints_enforce(db_cur):
+    """
+    Insert a row that violates each CHECK constraint and confirm it is rejected.
+    Uses a savepoint per attempt so the test does not mutate the table.
+    """
+    import psycopg2
+    # Need a real case_id to test FK; pick any SCOTUS case.
+    db_cur.execute("SELECT id FROM cases WHERE court_id = 1 LIMIT 1")
+    row = db_cur.fetchone()
+    if not row:
+        pytest.skip("No SCOTUS cases in DB")
+    case_id = row["id"]
+
+    bad_rows = [
+        # proposition_source outside enum
+        dict(source="not_a_source", status="majority", conf="high",
+             label="bad_source"),
+        # precedential_status outside enum
+        dict(source="llm_v1", status="not_a_status", conf="high",
+             label="bad_status"),
+        # confidence outside enum
+        dict(source="llm_v1", status="majority", conf="ultra",
+             label="bad_confidence"),
+    ]
+    for attempt in bad_rows:
+        db_cur.execute("SAVEPOINT s")
+        try:
+            db_cur.execute("""
+                INSERT INTO case_propositions
+                    (case_id, proposition_text, proposition_source,
+                     supporting_justice_ids, opposing_justice_ids,
+                     precedential_status, confidence)
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
+            """, (case_id, "test", attempt["source"], [], [],
+                  attempt["status"], attempt["conf"]))
+            db_cur.execute("RELEASE SAVEPOINT s")
+            pytest.fail(f"Expected CHECK violation for {attempt['label']}, got none")
+        except psycopg2.errors.CheckViolation:
+            db_cur.execute("ROLLBACK TO SAVEPOINT s")
+
+    # Coalition overlap violation.
+    db_cur.execute("SAVEPOINT s")
+    try:
+        db_cur.execute("""
+            INSERT INTO case_propositions
+                (case_id, proposition_text, proposition_source,
+                 supporting_justice_ids, opposing_justice_ids,
+                 precedential_status, confidence)
+            VALUES (%s, 'x', 'llm_v1', ARRAY[1,2]::bigint[], ARRAY[2,3]::bigint[],
+                    'majority', 'high')
+        """, (case_id,))
+        db_cur.execute("RELEASE SAVEPOINT s")
+        pytest.fail("Expected coalition-overlap CHECK violation")
+    except psycopg2.errors.CheckViolation:
+        db_cur.execute("ROLLBACK TO SAVEPOINT s")
