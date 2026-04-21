@@ -48,6 +48,32 @@ Additive changes (new columns, new tables) bump minor. Data corrections bump pat
   `CREATE TYPE IF NOT EXISTS vote_value AS ENUM (...)` with a
   `DO $$ ... $$` block checking `pg_type`. PostgreSQL does not accept
   `IF NOT EXISTS` on `CREATE TYPE`. Migration is now re-runnable.
+- `pipeline/reclassifier/` — Phase 1 opinion reclassifier.
+    - `signals.py` (pure-Python, DB-free): the four pattern classifiers
+      from v2.2 §5 Phase 1 — ``author_signal``, ``opening_text_signal``
+      (first 800 chars), ``body_text_signal``, ``courtlistener_signal``
+      — plus a ``classify`` fuser that enforces the plan's confidence
+      hierarchy: ``high`` (author+opening agree), ``medium`` (one fires,
+      the other absent), ``low`` (body-only, or contradictory top two,
+      or CL disagrees), ``manual_required`` (mixed/plurality/landmark).
+      Landmark threshold is cite_count > 500 per the plan.
+    - `runner.py`: orchestrator over the ``opinions`` table. Never
+      mutates ``opinion_type`` without snapshotting the pre-existing
+      value into ``opinion_type_original`` and writing a
+      ``reclassification_log`` row. Only the ``high`` tier applies
+      automatically; ``--apply-medium`` enables the medium tier (gated
+      on the plan's gold-set precision requirement); low and
+      manual_required are logged but never written. Supports
+      ``--dry-run``, ``--opinion-id``, ``--limit``, ``--rerun``.
+      Requires migration 002 on the target DB.
+- `tests/test_reclassifier_signals.py` — 42 unit tests covering each
+  signal detector individually plus the fusion rules. Verifies that
+  the dangerous overlaps are resolved correctly (concurring-in-part-
+  and-dissenting-in-part must not match plain dissent; body-text
+  dissent cue must be suppressed when the opinion also opens with
+  "delivered the opinion of the Court").
+- `pytest.ini` — adds repo root to ``pythonpath`` so tests can import
+  the ``pipeline`` package.
 - Initial schema migrations (001, 002).
 - Seed files: justices (115-row target), constitutional_provisions, doctrinal_tests.
 - Gold-set directory structure (60-case v1.0.0 scope).
