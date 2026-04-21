@@ -1,4 +1,4 @@
-# Justices seed — 115 rows
+# Justices seed — 116 rows
 # Source: Federal Judicial Center, Oyez, Wikidata
 # tenure_end: null for currently sitting justices
 # succession_seat: the "seat number" (1-9) tracking which predecessor a justice replaced
@@ -799,3 +799,919 @@ justices:
 # NOTE: Pre-1937 associate justices (Wilson, Cushing, Iredell, etc. through Butler era)
 # are omitted from this initial seed. They will be added from FJC bulk data in Phase 5.
 # Total when complete: 115 justices.
+  - canonical_name: William Cushing
+    display_name: Cushing
+    full_first: William
+    full_last: Cushing
+    born: '1732-03-01'
+    died: '1810-09-13'
+    tenure_start: '1789-09-27'
+    tenure_end: '1810-09-13'
+    chief_justice: false
+    appointing_president: George Washington
+    appointing_party: Federalist
+    race_ethnicity: White
+    oyez_justice_id: william_cushing
+    fjc_seat_id: SCT0301
+  - canonical_name: James Wilson
+    display_name: Wilson
+    full_first: James
+    full_last: Wilson
+    born: '1742-09-14'
+    died: '1798-08-21'
+    tenure_start: '1789-09-29'
+    tenure_end: '1798-08-21'
+    chief_justice: false
+    appointing_president: George Washington
+    appointing_party: Federalist
+    race_ethnicity: White
+    oyez_justice_id: james_wilson
+    fjc_seat_id: SCT0401
+  - canonical_name: John Blair, Jr.
+    display_name: Blair
+    full_first: John
+    full_last: Blair
+    suffix: Jr.
+    born: '1732'
+    died: '1800-08-31'
+    tenure_start: '1789-09-30'
+    tenure_end: '1795-10-25'
+    chief_justice: false
+    appointing_president: George Washington
+    appointing_party: Federalist
+    race_ethnicity: White
+    oyez_justice_id: john_blair
+    fjc_seat_id: SCT0501
+  - canonical_name: James Iredell
+    display_name: Iredell
+    full_first: James
+    full_last: Iredell
+    born: '1751-10-05'
+    died: '1799-10-20'
+    tenure_start: '1790-02-10'
+    tenure_end: '1799-10-20'
+    chief_justice: false
+    appointing_president: George Washington
+    appointing_party: Federalist
+    race_ethnicity: White
+    oyez_justice_id: james_iredell
+    fjc_seat_id: SCT0601
+  - canonical_name: Thomas Johnson
+    display_name: Johnson
+    full_first: Thomas
+    full_last: Johnson
+    born: '1732-11-04'
+    died: '1819-10-26'
+    tenure_start: '1791-11-07'
+    tenure_end: '1793-01-16'
+    chief_justice: false
+    appointing_president: George Washington
+    appointing_party: Federalist
+    race_ethnicity: White
+    oyez_justice_id: thomas_johnson
+    fjc_seat_id: SCT0202
+  - canonical_name: William Paterson
+    display_name: Paterson
+    full_first: William
+    full_last: Paterson
+    born: '1745-12-24'
+    died: '1806-09-09'
+    tenure_start: '1793-03-04'
+    tenure_end: '1806-09-09'
+    chief_justice: false
+    appointing_president: George Washington
+    appointing_party: Federalist
+    race_ethnicity: White
+    oyez_justice_id: william_paterson
+    fjc_seat_id: SCT0203
+  - canonical_name: Samuel Chase
+    display_name: Chase
+    full_first: Samuel
+    full_last: Chase
+    born: '1741-04-17'
+    died: '1811-06-19'
+    tenure_start: '1796-01-27'
+    tenure_end: '1811-06-19'
+    chief_justice: false
+    appointing_president: George Washington
+    appointing_party: Federalist
+    race_ethnicity: White
+    oyez_justice_id: samuel_chase
+    fjc_seat_id: SCT0502
+  - canonical_name: Bushrod Washington
+    display_name: Washington
+    full_first: Bushrod
+    full_last: Washington
+    born: '1762-06-05'
+    died: '1829-11-26'
+    tenure_start: '1798-12-20'
+    tenure_end: '1829-11-26'
+    chief_justice: false
+    appointing_president: John Adams
+    appointing_party: Federalist
+    race_ethnicity: White
+    oyez_justice_id: bushrod_washington
+    fjc_seat_id: SCT0402
+  - canonical_name: Alfred Moore
+    display_name: Moore
+    full_first: Alfred
+    full_last: Moore
+    born: '1755-05-21'
+    died: '1810-10-15'
+    tenure_start: '1799-12-10'
+    tenure_end: '1804-01-26'
+    chief_justice: false
+    appointing_president: John Adams
+    appointing_party: Federalist
+    race_ethnicity: White
+    oyez_justice_id: alfred_moore
+    fjc_seat_id: SCT0602
+  - canonical_name: William Johnson
+    display_name: Johnson
+    full_first: William
+    full_last: Johnson
+    suffix: Jr.
+    born: '1771-12-27'
+    died: '1834-08-04'
+    tenure_start: '1804-03-26'
+    tenure_end: '1834-08-04'
+    chief_justice: false
+    appointing_president: Thomas Jefferson
+    appointing_party: Democratic-Republican
+    race_ethnicity: White
+    oyez_justice_id: william_johnson
+    fjc_seat_id: SCT0603
+  - canonical_name: Henry Brockholst Livingston
+    display_name: Livingston
+    full_first: Henry
+    full_middle: Brockholst
+    full_last: Livingston
+    born: '1757-11-25'
+    died: '1823-03-18'
+    tenure_start: '1807-01-16'
+    tenure_end: '1823-03-18'
+    chief_justice: false
+    appointing_president: Thomas Jefferson
+    appointing_party: Democratic-Republican
+    race_ethnicity: White
+    oyez_justice_id: brockholst_livingston
+    fjc_seat_id: SCT0204
+  - canonical_name: Thomas Todd
+    display_name: Todd
+    full_first: Thomas
+    full_last: Todd
+    born: '1765-01-23'
+    died: '1826-02-07'
+    tenure_start: '1807-03-03'
+    tenure_end: '1826-02-07'
+    chief_justice: false
+    appointing_president: Thomas Jefferson
+    appointing_party: Democratic-Republican
+    race_ethnicity: White
+    oyez_justice_id: thomas_todd
+    fjc_seat_id: SCT0701
+  - canonical_name: Gabriel Duvall
+    display_name: Duvall
+    full_first: Gabriel
+    full_last: Duvall
+    born: '1752-12-06'
+    died: '1844-03-06'
+    tenure_start: '1811-11-18'
+    tenure_end: '1835-01-12'
+    chief_justice: false
+    appointing_president: James Madison
+    appointing_party: Democratic-Republican
+    race_ethnicity: White
+    oyez_justice_id: gabriel_duvall
+    fjc_seat_id: SCT0503
+  - canonical_name: Joseph Story
+    display_name: Story
+    full_first: Joseph
+    full_last: Story
+    born: '1779-09-18'
+    died: '1845-09-10'
+    tenure_start: '1811-11-18'
+    tenure_end: '1845-09-10'
+    chief_justice: false
+    appointing_president: James Madison
+    appointing_party: Democratic-Republican
+    race_ethnicity: White
+    oyez_justice_id: joseph_story
+    fjc_seat_id: SCT0302
+  - canonical_name: Smith Thompson
+    display_name: Thompson
+    full_first: Smith
+    full_last: Thompson
+    born: '1768-01-17'
+    died: '1843-12-18'
+    tenure_start: '1823-12-09'
+    tenure_end: '1843-12-18'
+    chief_justice: false
+    appointing_president: James Monroe
+    appointing_party: Democratic-Republican
+    race_ethnicity: White
+    oyez_justice_id: smith_thompson
+    fjc_seat_id: SCT0205
+  - canonical_name: Robert Trimble
+    display_name: Trimble
+    full_first: Robert
+    full_last: Trimble
+    born: '1776-11-17'
+    died: '1828-08-25'
+    tenure_start: '1826-05-09'
+    tenure_end: '1828-08-25'
+    chief_justice: false
+    appointing_president: John Quincy Adams
+    appointing_party: Democratic-Republican
+    race_ethnicity: White
+    oyez_justice_id: robert_trimble
+    fjc_seat_id: SCT0702
+  - canonical_name: John McLean
+    display_name: McLean
+    full_first: John
+    full_last: McLean
+    born: '1785-03-11'
+    died: '1861-04-04'
+    tenure_start: '1829-03-07'
+    tenure_end: '1861-04-04'
+    chief_justice: false
+    appointing_president: Andrew Jackson
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: john_mclean
+    fjc_seat_id: SCT0703
+  - canonical_name: Henry Baldwin
+    display_name: Baldwin
+    full_first: Henry
+    full_last: Baldwin
+    born: '1780-01-14'
+    died: '1844-04-21'
+    tenure_start: '1830-01-06'
+    tenure_end: '1844-04-21'
+    chief_justice: false
+    appointing_president: Andrew Jackson
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: henry_baldwin
+    fjc_seat_id: SCT0403
+  - canonical_name: James M. Wayne
+    display_name: Wayne
+    full_first: James
+    full_middle: Moore
+    full_last: Wayne
+    born: '1790'
+    died: '1867-07-05'
+    tenure_start: '1835-01-09'
+    tenure_end: '1867-07-05'
+    chief_justice: false
+    appointing_president: Andrew Jackson
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: james_m_wayne
+    fjc_seat_id: SCT0604
+  - canonical_name: Philip P. Barbour
+    display_name: Barbour
+    full_first: Philip
+    full_middle: Pendleton
+    full_last: Barbour
+    born: '1783-05-25'
+    died: '1841-02-25'
+    tenure_start: '1836-03-15'
+    tenure_end: '1841-02-25'
+    chief_justice: false
+    appointing_president: Andrew Jackson
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: philip_p_barbour
+    fjc_seat_id: SCT0504
+  - canonical_name: John Catron
+    display_name: Catron
+    full_first: John
+    full_last: Catron
+    born: '1786'
+    died: '1865-05-30'
+    tenure_start: '1837-03-08'
+    tenure_end: '1865-05-30'
+    chief_justice: false
+    appointing_president: Andrew Jackson
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: john_catron
+    fjc_seat_id: SCT0801
+  - canonical_name: John McKinley
+    display_name: McKinley
+    full_first: John
+    full_last: McKinley
+    born: '1780-05-01'
+    died: '1852-07-19'
+    tenure_start: '1837-09-25'
+    tenure_end: '1852-07-19'
+    chief_justice: false
+    appointing_president: Martin Van Buren
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: john_mckinley
+    fjc_seat_id: SCT0901
+  - canonical_name: Peter V. Daniel
+    display_name: Daniel
+    full_first: Peter
+    full_middle: Vivian
+    full_last: Daniel
+    born: '1784-04-24'
+    died: '1860-05-31'
+    tenure_start: '1841-03-03'
+    tenure_end: '1860-05-31'
+    chief_justice: false
+    appointing_president: Martin Van Buren
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: peter_v_daniel
+    fjc_seat_id: SCT0505
+  - canonical_name: Samuel Nelson
+    display_name: Nelson
+    full_first: Samuel
+    full_last: Nelson
+    born: '1792-11-10'
+    died: '1873-12-13'
+    tenure_start: '1845-02-13'
+    tenure_end: '1872-11-28'
+    chief_justice: false
+    appointing_president: John Tyler
+    appointing_party: Whig
+    race_ethnicity: White
+    oyez_justice_id: samuel_nelson
+    fjc_seat_id: SCT0206
+  - canonical_name: Levi Woodbury
+    display_name: Woodbury
+    full_first: Levi
+    full_last: Woodbury
+    born: '1789-12-22'
+    died: '1851-09-04'
+    tenure_start: '1846-01-03'
+    tenure_end: '1851-09-04'
+    chief_justice: false
+    appointing_president: James K. Polk
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: levi_woodbury
+    fjc_seat_id: SCT0303
+  - canonical_name: Robert C. Grier
+    display_name: Grier
+    full_first: Robert
+    full_middle: Cooper
+    full_last: Grier
+    born: '1794-03-05'
+    died: '1870-09-25'
+    tenure_start: '1846-08-04'
+    tenure_end: '1870-01-31'
+    chief_justice: false
+    appointing_president: James K. Polk
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: robert_c_grier
+    fjc_seat_id: SCT0404
+  - canonical_name: Benjamin R. Curtis
+    display_name: Curtis
+    full_first: Benjamin
+    full_middle: Robbins
+    full_last: Curtis
+    born: '1809-11-04'
+    died: '1874-09-15'
+    tenure_start: '1851-12-20'
+    tenure_end: '1857-09-30'
+    chief_justice: false
+    appointing_president: Millard Fillmore
+    appointing_party: Whig
+    race_ethnicity: White
+    oyez_justice_id: benjamin_r_curtis
+    fjc_seat_id: SCT0304
+  - canonical_name: John A. Campbell
+    display_name: Campbell
+    full_first: John
+    full_middle: Archibald
+    full_last: Campbell
+    born: '1811-06-24'
+    died: '1889-03-12'
+    tenure_start: '1853-03-22'
+    tenure_end: '1861-04-30'
+    chief_justice: false
+    appointing_president: Franklin Pierce
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: john_a_campbell
+    fjc_seat_id: SCT0902
+  - canonical_name: Nathan Clifford
+    display_name: Clifford
+    full_first: Nathan
+    full_last: Clifford
+    born: '1803-08-18'
+    died: '1881-07-25'
+    tenure_start: '1858-01-12'
+    tenure_end: '1881-07-25'
+    chief_justice: false
+    appointing_president: James Buchanan
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: nathan_clifford
+    fjc_seat_id: SCT0305
+  - canonical_name: Noah Swayne
+    display_name: Swayne
+    full_first: Noah
+    full_middle: Haynes
+    full_last: Swayne
+    born: '1804-12-07'
+    died: '1884-06-08'
+    tenure_start: '1862-01-24'
+    tenure_end: '1881-01-24'
+    chief_justice: false
+    appointing_president: Abraham Lincoln
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: noah_swayne
+    fjc_seat_id: SCT0704
+  - canonical_name: Samuel F. Miller
+    display_name: Miller
+    full_first: Samuel
+    full_middle: Freeman
+    full_last: Miller
+    born: '1816-04-05'
+    died: '1890-10-13'
+    tenure_start: '1862-07-16'
+    tenure_end: '1890-10-13'
+    chief_justice: false
+    appointing_president: Abraham Lincoln
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: samuel_f_miller
+    fjc_seat_id: SCT0506
+  - canonical_name: David Davis
+    display_name: Davis
+    full_first: David
+    full_last: Davis
+    born: '1815-03-09'
+    died: '1886-06-26'
+    tenure_start: '1862-12-08'
+    tenure_end: '1877-03-04'
+    chief_justice: false
+    appointing_president: Abraham Lincoln
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: david_davis
+    fjc_seat_id: SCT0903
+  - canonical_name: Stephen J. Field
+    display_name: Field
+    full_first: Stephen
+    full_middle: Johnson
+    full_last: Field
+    born: '1816-11-04'
+    died: '1899-04-09'
+    tenure_start: '1863-03-10'
+    tenure_end: '1897-12-01'
+    chief_justice: false
+    appointing_president: Abraham Lincoln
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: stephen_j_field
+    fjc_seat_id: SCT1001
+  - canonical_name: William Strong
+    display_name: Strong
+    full_first: William
+    full_last: Strong
+    born: '1808-05-06'
+    died: '1895-08-19'
+    tenure_start: '1870-02-18'
+    tenure_end: '1880-12-14'
+    chief_justice: false
+    appointing_president: Ulysses Grant
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: william_strong
+    fjc_seat_id: SCT0405
+  - canonical_name: Joseph P. Bradley
+    display_name: Bradley
+    full_first: Joseph
+    full_middle: P.
+    full_last: Bradley
+    born: '1813-03-14'
+    died: '1892-01-22'
+    tenure_start: '1870-03-21'
+    tenure_end: '1892-01-22'
+    chief_justice: false
+    appointing_president: Ulysses Grant
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: joseph_p_bradley
+    fjc_seat_id: SCT1101
+  - canonical_name: Ward Hunt
+    display_name: Hunt
+    full_first: Ward
+    full_last: Hunt
+    born: '1810-06-14'
+    died: '1886-03-24'
+    tenure_start: '1872-12-11'
+    tenure_end: '1882-01-27'
+    chief_justice: false
+    appointing_president: Ulysses Grant
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: ward_hunt
+    fjc_seat_id: SCT0207
+  - canonical_name: John M. Harlan
+    display_name: Harlan
+    full_first: John
+    full_middle: Marshall
+    full_last: Harlan
+    born: '1833-06-01'
+    died: '1911-10-14'
+    tenure_start: '1877-11-29'
+    tenure_end: '1911-10-14'
+    chief_justice: false
+    appointing_president: Rutherford B. Hayes
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: john_m_harlan
+    fjc_seat_id: SCT0904
+  - canonical_name: William B. Woods
+    display_name: Woods
+    full_first: William
+    full_middle: Burnham
+    full_last: Woods
+    born: '1824-08-03'
+    died: '1887-05-14'
+    tenure_start: '1880-12-21'
+    tenure_end: '1887-05-14'
+    chief_justice: false
+    appointing_president: Rutherford B. Hayes
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: william_b_woods
+    fjc_seat_id: SCT0406
+  - canonical_name: Stanley Matthews
+    display_name: Matthews
+    full_first: Stanley
+    full_last: Matthews
+    born: '1824-07-21'
+    died: '1889-03-22'
+    tenure_start: '1881-05-12'
+    tenure_end: '1889-03-22'
+    chief_justice: false
+    appointing_president: James A. Garfield
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: stanley_matthews
+    fjc_seat_id: SCT0705
+  - canonical_name: Horace Gray
+    display_name: Gray
+    full_first: Horace
+    full_last: Gray
+    born: '1828-03-24'
+    died: '1902-09-15'
+    tenure_start: '1881-12-20'
+    tenure_end: '1902-09-15'
+    chief_justice: false
+    appointing_president: Chester A. Arthur
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: horace_gray
+    fjc_seat_id: SCT0306
+  - canonical_name: Samuel Blatchford
+    display_name: Blatchford
+    full_first: Samuel
+    full_middle: M.
+    full_last: Blatchford
+    born: '1820-03-09'
+    died: '1893-07-07'
+    tenure_start: '1882-03-22'
+    tenure_end: '1893-07-07'
+    chief_justice: false
+    appointing_president: Chester A. Arthur
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: samuel_blatchford
+    fjc_seat_id: SCT0208
+  - canonical_name: Lucius Q.C. Lamar
+    display_name: Lamar
+    full_first: Lucius
+    full_middle: Quintus Cincinnatus
+    full_last: Lamar
+    born: '1825-09-17'
+    died: '1893-01-23'
+    tenure_start: '1888-01-16'
+    tenure_end: '1893-01-23'
+    chief_justice: false
+    appointing_president: Grover Cleveland
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: lucius_qc_lamar
+    fjc_seat_id: SCT0407
+  - canonical_name: David J. Brewer
+    display_name: Brewer
+    full_first: David
+    full_middle: Josiah
+    full_last: Brewer
+    born: '1837-06-20'
+    died: '1910-03-28'
+    tenure_start: '1889-12-18'
+    tenure_end: '1910-03-28'
+    chief_justice: false
+    appointing_president: Benjamin Harrison
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: david_j_brewer
+    fjc_seat_id: SCT0706
+  - canonical_name: Henry B. Brown
+    display_name: Brown
+    full_first: Henry
+    full_middle: Billings
+    full_last: Brown
+    born: '1836-03-02'
+    died: '1913-09-04'
+    tenure_start: '1890-12-29'
+    tenure_end: '1906-05-28'
+    chief_justice: false
+    appointing_president: Benjamin Harrison
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: henry_b_brown
+    fjc_seat_id: SCT0507
+  - canonical_name: George Shiras, Jr.
+    display_name: Shiras
+    full_first: George
+    full_last: Shiras
+    suffix: Jr.
+    born: '1832-01-26'
+    died: '1924-08-02'
+    tenure_start: '1892-07-26'
+    tenure_end: '1903-02-23'
+    chief_justice: false
+    appointing_president: Benjamin Harrison
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: george_shiras_jr
+    fjc_seat_id: SCT1102
+  - canonical_name: Howell E. Jackson
+    display_name: Jackson
+    full_first: Howell
+    full_middle: Edmunds
+    full_last: Jackson
+    born: '1832-04-08'
+    died: '1895-08-08'
+    tenure_start: '1893-02-18'
+    tenure_end: '1895-08-08'
+    chief_justice: false
+    appointing_president: Benjamin Harrison
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: howell_e_jackson
+    fjc_seat_id: SCT0408
+  - canonical_name: Rufus Peckham
+    display_name: Peckham
+    full_first: Rufus
+    full_middle: Wheeler
+    full_last: Peckham
+    born: '1838-11-08'
+    died: '1909-10-24'
+    tenure_start: '1895-12-09'
+    tenure_end: '1909-10-24'
+    chief_justice: false
+    appointing_president: Grover Cleveland
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: rufus_peckham
+    fjc_seat_id: SCT0409
+  - canonical_name: Joseph McKenna
+    display_name: McKenna
+    full_first: Joseph
+    full_last: McKenna
+    born: '1843-08-10'
+    died: '1926-11-21'
+    tenure_start: '1898-01-21'
+    tenure_end: '1925-01-05'
+    chief_justice: false
+    appointing_president: William McKinley
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: joseph_mckenna
+    fjc_seat_id: SCT1002
+  - canonical_name: Oliver W. Holmes, Jr.
+    display_name: Holmes
+    full_first: Oliver
+    full_middle: Wendell
+    full_last: Holmes
+    suffix: Jr.
+    born: '1841-03-08'
+    died: '1935-03-06'
+    tenure_start: '1902-12-04'
+    tenure_end: '1932-01-12'
+    chief_justice: false
+    appointing_president: Theodore Roosevelt
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: oliver_w_holmes_jr
+    fjc_seat_id: SCT0307
+  - canonical_name: William R. Day
+    display_name: Day
+    full_first: William
+    full_middle: Rufus
+    full_last: Day
+    born: '1849-04-17'
+    died: '1923-07-09'
+    tenure_start: '1903-02-23'
+    tenure_end: '1922-11-13'
+    chief_justice: false
+    appointing_president: Theodore Roosevelt
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: william_r_day
+    fjc_seat_id: SCT1103
+  - canonical_name: William H. Moody
+    display_name: Moody
+    full_first: William
+    full_middle: Henry
+    full_last: Moody
+    born: '1853-12-23'
+    died: '1917-07-02'
+    tenure_start: '1906-12-12'
+    tenure_end: '1910-11-19'
+    chief_justice: false
+    appointing_president: Theodore Roosevelt
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: william_h_moody
+    fjc_seat_id: SCT0508
+  - canonical_name: Horace H. Lurton
+    display_name: Lurton
+    full_first: Horace
+    full_middle: Harmon
+    full_last: Lurton
+    born: '1844-02-26'
+    died: '1914-07-12'
+    tenure_start: '1909-12-20'
+    tenure_end: '1914-07-12'
+    chief_justice: false
+    appointing_president: William H. Taft
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: horace_h_lurton
+    fjc_seat_id: SCT0410
+  - canonical_name: Willis Van Devanter
+    display_name: Van Devanter
+    full_first: Willis
+    full_last: Van Devanter
+    born: '1859-04-17'
+    died: '1941-02-08'
+    tenure_start: '1910-12-16'
+    tenure_end: '1941-02-08'
+    chief_justice: false
+    appointing_president: William H. Taft
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: willis_van_devanter
+    fjc_seat_id: SCT0210
+  - canonical_name: Joseph R. Lamar
+    display_name: Lamar
+    full_first: Joseph
+    full_middle: Rucker
+    full_last: Lamar
+    born: '1857-10-14'
+    died: '1916-01-02'
+    tenure_start: '1910-12-17'
+    tenure_end: '1916-01-02'
+    chief_justice: false
+    appointing_president: William H. Taft
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: joseph_r_lamar
+    fjc_seat_id: SCT0509
+  - canonical_name: Mahlon Pitney
+    display_name: Pitney
+    full_first: Mahlon
+    full_last: Pitney
+    born: '1858-02-05'
+    died: '1924-12-09'
+    tenure_start: '1912-03-13'
+    tenure_end: '1922-12-31'
+    chief_justice: false
+    appointing_president: William H. Taft
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: mahlon_pitney
+    fjc_seat_id: SCT0905
+  - canonical_name: James C. McReynolds
+    display_name: McReynolds
+    full_first: James
+    full_middle: Clark
+    full_last: McReynolds
+    born: '1862-02-03'
+    died: '1946-08-24'
+    tenure_start: '1914-08-29'
+    tenure_end: '1946-08-24'
+    chief_justice: false
+    appointing_president: Woodrow Wilson
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: james_c_mcreynolds
+    fjc_seat_id: SCT0411
+  - canonical_name: Louis D. Brandeis
+    display_name: Brandeis
+    full_first: Louis
+    full_middle: Dembitz
+    full_last: Brandeis
+    born: '1856-11-13'
+    died: '1941-10-05'
+    tenure_start: '1916-06-01'
+    tenure_end: '1941-10-05'
+    chief_justice: false
+    appointing_president: Woodrow Wilson
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: louis_d_brandeis
+    fjc_seat_id: SCT0510
+  - canonical_name: John H. Clarke
+    display_name: Clarke
+    full_first: John
+    full_middle: Hessin
+    full_last: Clarke
+    born: '1857-09-18'
+    died: '1945-03-22'
+    tenure_start: '1916-07-24'
+    tenure_end: '1922-09-18'
+    chief_justice: false
+    appointing_president: Woodrow Wilson
+    appointing_party: Democratic
+    race_ethnicity: White
+    oyez_justice_id: john_h_clarke
+    fjc_seat_id: SCT0708
+  - canonical_name: George Sutherland
+    display_name: Sutherland
+    full_first: George
+    full_last: Sutherland
+    born: '1862-03-25'
+    died: '1942-07-18'
+    tenure_start: '1922-09-05'
+    tenure_end: '1942-07-18'
+    chief_justice: false
+    appointing_president: Warren G. Harding
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: george_sutherland
+    fjc_seat_id: SCT0709
+  - canonical_name: Pierce Butler
+    display_name: Butler
+    full_first: Pierce
+    full_last: Butler
+    born: '1866-03-17'
+    died: '1939-11-16'
+    tenure_start: '1922-12-21'
+    tenure_end: '1939-11-16'
+    chief_justice: false
+    appointing_president: Warren G. Harding
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: pierce_butler
+    fjc_seat_id: SCT1104
+  - canonical_name: Edward T. Sanford
+    display_name: Sanford
+    full_first: Edward
+    full_middle: Terry
+    full_last: Sanford
+    born: '1865-07-23'
+    died: '1930-03-08'
+    tenure_start: '1923-01-29'
+    tenure_end: '1930-03-08'
+    chief_justice: false
+    appointing_president: Warren G. Harding
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: edward_t_sanford
+    fjc_seat_id: SCT0906
+  - canonical_name: Owen J. Roberts
+    display_name: Roberts
+    full_first: Owen
+    full_middle: Josephus
+    full_last: Roberts
+    born: '1875-05-02'
+    died: '1955-05-17'
+    tenure_start: '1930-05-20'
+    tenure_end: '1945-07-31'
+    chief_justice: false
+    appointing_president: Herbert Hoover
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: owen_j_roberts
+    fjc_seat_id: SCT0907
+  - canonical_name: Benjamin N. Cardozo
+    display_name: Cardozo
+    full_first: Benjamin
+    full_middle: Nathan
+    full_last: Cardozo
+    born: '1870-05-24'
+    died: '1938-07-09'
+    tenure_start: '1932-03-02'
+    tenure_end: '1938-07-09'
+    chief_justice: false
+    appointing_president: Herbert Hoover
+    appointing_party: Republican
+    race_ethnicity: White
+    oyez_justice_id: benjamin_n_cardozo
+    fjc_seat_id: SCT0308

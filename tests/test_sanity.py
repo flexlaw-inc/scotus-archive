@@ -23,14 +23,33 @@ SEEDS_DIR = Path(__file__).parent.parent / "seeds"
 
 
 def test_justices_seed_loads():
+    """Seed must contain the full 116-justice historical roster (FJC count).
+
+    Expected composition:
+      - 116 total rows (matches Oyez roster and FJC SCOTUS appointees)
+      - 17 distinct Chief Justice rows (Jay through Roberts, incl. Rutledge
+        recess appointment and Stone's elevation)
+      - Unique oyez_justice_id for every row
+      - Required fields on every row
+    """
     data = yaml.safe_load((SEEDS_DIR / "justices.yaml").read_text())
     justices = data["justices"]
-    assert len(justices) >= 40, "Expected at least 40 modern-era justices"
+    assert len(justices) == 116, (
+        f"Expected 116 justices (FJC SCOTUS roster), got {len(justices)}"
+    )
     for j in justices:
         assert "canonical_name" in j
         assert "display_name" in j
         assert "tenure_start" in j
         assert isinstance(j.get("chief_justice"), bool)
+        assert "oyez_justice_id" in j, f"missing oyez id on {j['canonical_name']}"
+    # Chief Justice count
+    chiefs = [j for j in justices if j.get("chief_justice")]
+    assert len(chiefs) == 17, f"Expected 17 Chief Justice rows, got {len(chiefs)}"
+    # Unique oyez_justice_id
+    ids = [j["oyez_justice_id"] for j in justices]
+    dupes = sorted({i for i in ids if ids.count(i) > 1})
+    assert not dupes, f"Duplicate oyez_justice_id values: {dupes}"
 
 
 def test_provisions_seed_loads():
