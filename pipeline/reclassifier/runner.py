@@ -141,7 +141,7 @@ _OPINION_UPDATE_SQL = """
     UPDATE opinions
     SET
         opinion_type            = %s,
-        opinion_type_original   = COALESCE(opinion_type_original, opinion_type),
+        opinion_type_original   = COALESCE(opinion_type_original, opinion_type::text),
         opinion_type_source     = %s,
         opinion_type_confidence = %s
     WHERE id = %s
